@@ -20,7 +20,7 @@ Every setting is per widget, under **Edit Widget**.
 
 ## Privacy
 
-WeekPeek collects no data. It has no network code, analytics or tracking. Events are read on the device through EventKit and never leave it.
+WeekPeek collects no data. It has no network code, analytics or tracking. Events are read on the device through EventKit and never leave it. See the full [privacy policy](PRIVACY.md).
 
 ## Building
 
@@ -62,7 +62,11 @@ The project and targets are still named `KalenderWidget` from the first prototyp
 
 ## About this project
 
-WeekPeek was built with the help of AI (Claude by Anthropic) and is maintained in spare time. Issues and pull requests are welcome, but responses may be slow.
+WeekPeek is a hobby project, openly "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is not made to earn money.
+
+If WeekPeek is sold on the App Store, the price is only a hope of covering part of the costs (Apple Developer Program, cloud Mac time, AI tools). You are free to do whatever the license allows: build it yourself from this repository at no cost, change it, or share it.
+
+Issues and pull requests are welcome, but responses may be slow.
 
 ## License
 
