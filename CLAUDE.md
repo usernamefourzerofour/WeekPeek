@@ -29,7 +29,7 @@ Names: the app is **WeekPeek** (App Store: "WeekPeek: Calendar Widget"), but tar
 - Every setting is a parameter of `WeekWidgetIntent` (per widget, "Edit Widget"). The app has no settings of its own on purpose: keep the app simple and the widget powerful.
 - `WeekSettings.grid(for:)` turns days/columns ("Auto" = per size) into a grid; rows are derived.
 - `LineFit` decides lines per event: Auto allows up to 3, shrinks the longest titles first, then shows "+N more". Text is measured with UIKit (`boundingRect`) plus a safety margin, because SwiftUI lays out slightly wider. A word that cannot fit is truncated on one line rather than wrapped mid-word.
-- Tapping a day opens the app through `kalenderwidget://open?app=…&date=…`; `Router` forwards to the chosen calendar app. Only Apple Calendar and Fantastical support a date; Google Calendar and Outlook (`ms-outlook://`, undocumented) open on today.
+- Tapping a day opens the app through `kalenderwidget://open?app=…&date=…`; `Router` forwards to the chosen calendar app. Only Apple Calendar and Fantastical support a date; Google Calendar and Outlook (`ms-outlook://events`, undocumented; plain `ms-outlook://` only opens the last tab) open on today.
 - A widget cannot check which apps are installed, so the app list is static.
 
 ## Localisation

@@ -154,7 +154,7 @@ final class DeepLinkTests: XCTestCase {
     func testTargetURLs() {
         let date = cal.date(from: DateComponents(year: 2026, month: 11, day: 2))!
         XCTAssertEqual(CalendarApp.google.targetURL(for: date, calendar: cal).absoluteString, "googlecalendar://")
-        XCTAssertEqual(CalendarApp.outlook.targetURL(for: date, calendar: cal).absoluteString, "ms-outlook://")
+        XCTAssertEqual(CalendarApp.outlook.targetURL(for: date, calendar: cal).absoluteString, "ms-outlook://events")
         XCTAssertEqual(CalendarApp.fantastical.targetURL(for: date, calendar: cal).absoluteString,
                        "x-fantastical3://show?date=2026-11-02")
         XCTAssertTrue(CalendarApp.apple.targetURL(for: date, calendar: cal).absoluteString.hasPrefix("calshow:"))
