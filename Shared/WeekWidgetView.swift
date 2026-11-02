@@ -51,7 +51,8 @@ struct WeekWidgetView: View {
             let usable = geo.size.height - labelH * labelCount - Metrics.rowSpacing * CGFloat(rows.count - 1)
             let rowH = usable / CGFloat(max(1, rows.count))
             let colW = (geo.size.width - Metrics.columnSpacing * CGFloat(spec.columns - 1)) / CGFloat(spec.columns)
-            let headerStyle = DayLayout.headerStyle(for: days, width: colW, font: font, locale: locale, calendar: calendar)
+            let density = DayLayout.density(for: days, columnWidth: colW, style: s.colorStyle, font: font,
+                                            locale: locale, calendar: calendar)
             VStack(alignment: .leading, spacing: 0) {
                 ForEach(Array(rows.enumerated()), id: \.offset) { r, row in
                     if r > 0 {
@@ -73,7 +74,7 @@ struct WeekWidgetView: View {
                                     .padding(.horizontal, (Metrics.columnSpacing - 0.5) / 2)
                             }
                             if c < row.count {
-                                cell(day: row[c], width: colW, height: rowH, headerStyle: headerStyle)
+                                cell(day: row[c], width: colW, height: rowH, density: density)
                             } else {
                                 Color.clear.frame(width: colW, height: rowH)
                             }
@@ -111,8 +112,8 @@ struct WeekWidgetView: View {
     }
 
     @ViewBuilder
-    private func cell(day: Date, width: CGFloat, height: CGFloat, headerStyle: DayLayout.HeaderStyle) -> some View {
-        let column = DayColumn(model: model, day: day, width: width, height: height, headerStyle: headerStyle,
+    private func cell(day: Date, width: CGFloat, height: CGFloat, density: DayLayout.Density) -> some View {
+        let column = DayColumn(model: model, day: day, width: width, height: height, density: density,
                                calendar: calendar, locale: locale, accented: accented)
         if size == .small {
             column  // Small widgets only support a single tap target.
@@ -129,7 +130,7 @@ struct DayColumn: View {
     let day: Date
     let width: CGFloat
     let height: CGFloat
-    var headerStyle: DayLayout.HeaderStyle = .full
+    var density = DayLayout.Density()
     let calendar: Calendar
     let locale: Locale
     let accented: Bool
@@ -150,7 +151,7 @@ struct DayColumn: View {
         let scales = timed.map { LineFit.wordFitScale($0.title, width: textW, font: font) }
         // A word that cannot fit is truncated on its line rather than wrapped mid-word:
         // one line, or two when the start time takes the first line.
-        let needed = zip(timed, scales).map { event, scale in
+        let needed = !density.showsTitles ? timed.map { _ in 1 } : zip(timed, scales).map { event, scale in
             let timeLine = timePrefix(for: event) == nil ? 0 : 1
             return timeLine + (scale < LineFit.minWordScale ? 1
                 : LineFit.estimatedLines(event.title, width: textW, font: font * scale))
@@ -162,7 +163,7 @@ struct DayColumn: View {
                 .frame(height: headerH - LineFit.chipSpacing, alignment: .bottomLeading)
 
             if !allDay.isEmpty {
-                ForEach(allDay) { EventChip(event: $0, text: $0.title, lines: 1, font: font, style: s.colorStyle, accented: accented) }
+                ForEach(allDay) { EventChip(event: $0, text: density.showsTitles ? $0.title : "", lines: 1, font: font, style: s.colorStyle, accented: accented) }
                 Rectangle().fill(Color.primary.opacity(0.15)).frame(height: 0.5).padding(.vertical, 1)
             }
 
@@ -174,7 +175,9 @@ struct DayColumn: View {
             }
 
             if plan.more > 0 {
-                Text("+\(plan.more) more")
+                Group {
+                    if density.shortMore { Text(verbatim: "+\(plan.more)") } else { Text("+\(plan.more) more") }
+                }
                     .font(.system(size: font * 0.9, weight: .medium))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
@@ -199,7 +202,7 @@ struct DayColumn: View {
     }
 
     private func header(isToday: Bool) -> some View {
-        Text(DayLayout.header(for: day, style: headerStyle, locale: locale, calendar: calendar))
+        Text(DayLayout.header(for: day, style: density.header, locale: locale, calendar: calendar))
             .font(.system(size: font + 1, weight: isToday ? .bold : .semibold))
             .foregroundStyle(isToday ? Color.red : Color.primary)
             .widgetAccentable(isToday)
@@ -208,12 +211,13 @@ struct DayColumn: View {
     }
 
     private func timePrefix(for e: WidgetEvent) -> String? {
-        DayLayout.showsStartTime(e, on: day, settings: s, calendar: calendar)
+        density.showsTitles && density.showsTimes && DayLayout.showsStartTime(e, on: day, settings: s, calendar: calendar)
             ? DayLayout.startTime(e.start, locale: locale, calendar: calendar) : nil
     }
 
     /// Text used for the line estimate, including any start time.
     private func title(for e: WidgetEvent) -> String {
+        if !density.showsTitles { return "" }
         if let t = timePrefix(for: e) { return t + " " + e.title }
         return e.title
     }

@@ -94,6 +94,29 @@ enum DayLayout {
         return .number
     }
 
+    /// What fits in narrow columns (dense small widgets, e.g. in StandBy). Same for every column.
+    struct Density: Equatable {
+        var header: HeaderStyle = .full
+        /// Start times are dropped when "10:00" does not fit on a line.
+        var showsTimes = true
+        /// Chips become plain color blocks when not even two letters fit.
+        var showsTitles = true
+        /// "+3 more" becomes "+3" when day headers are shortened.
+        var shortMore: Bool { header != .full }
+    }
+
+    static func density(for days: [Date], columnWidth: CGFloat, style: ColorStyle, font: CGFloat,
+                        locale: Locale, calendar: Calendar = .current) -> Density {
+        let textW = LineFit.textWidth(chipWidth: columnWidth, style: style)
+        let sampleTime = calendar.date(bySettingHour: 10, minute: 0, second: 0, of: days.first ?? Date()) ?? Date()
+        let time = (startTime(sampleTime, locale: locale, calendar: calendar) as NSString)
+            .size(withAttributes: [.font: UIFont.monospacedDigitSystemFont(ofSize: font, weight: .bold)]).width
+        let twoLetters = ("Wa…" as NSString).size(withAttributes: [.font: UIFont.systemFont(ofSize: font, weight: .medium)]).width
+        return Density(header: headerStyle(for: days, width: columnWidth, font: font, locale: locale, calendar: calendar),
+                       showsTimes: time * 0.75 <= textW,   // the time may shrink to 70 % (minimumScaleFactor)
+                       showsTitles: twoLetters <= textW)
+    }
+
     /// Whether each row gets a week label: not when it shows only the week the previous row ended in.
     static func showsWeekLabel(rows: [[Date]], calendar: Calendar = .current) -> [Bool] {
         let weeks = rows.map { (weekNumber($0.first!, calendar: calendar), weekNumber($0.last!, calendar: calendar)) }

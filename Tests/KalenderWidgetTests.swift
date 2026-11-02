@@ -112,6 +112,17 @@ final class DayLayoutTests: XCTestCase {
         XCTAssertTrue(narrow.contains("M") && narrow.contains("2"), narrow)
     }
 
+    func testDensityForNarrowColumns() {
+        let en = Locale(identifier: "en_US")
+        let days = (2...8).map { d($0) }
+        let wide = DayLayout.density(for: days, columnWidth: 100, style: .calendar, font: 11, locale: en, calendar: cal)
+        XCTAssertEqual(wide, DayLayout.Density())
+        let narrow = DayLayout.density(for: days, columnWidth: 18, style: .calendar, font: 11, locale: en, calendar: cal)
+        XCTAssertFalse(narrow.showsTimes)
+        XCTAssertFalse(narrow.showsTitles)
+        XCTAssertTrue(narrow.shortMore)
+    }
+
     func testRepeatedWeekLabelIsHidden() {
         // Mon–Wed and Thu–Fri of week 45: only the first row is labelled.
         XCTAssertEqual(DayLayout.showsWeekLabel(rows: [[d(2), d(3), d(4)], [d(5), d(6)]], calendar: cal), [true, false])
@@ -208,13 +219,12 @@ final class RenderTests: XCTestCase {
 
         let variants: [Variant] = [
             Variant(name: "small", size: .small),
-            Variant(name: "small-5days-3cols-week", size: .small, scheme: .dark) {
-                $0.dayCount = 5; $0.columns = 3; $0.showWeekNumber = true
-            },
-            Variant(name: "small-5cols", size: .small, scheme: .dark) { $0.dayCount = 5; $0.columns = 5 },
-            Variant(name: "small-14days-7cols", size: .small, scheme: .dark) {
-                $0.dayCount = 14; $0.columns = 7; $0.fontSize = 8; $0.showStartTime = false
-            },
+            Variant(name: "small-5days-3cols-week", size: .small,
+                    configure: { $0.dayCount = 5; $0.columns = 3; $0.showWeekNumber = true }, scheme: .dark),
+            Variant(name: "small-5cols", size: .small,
+                    configure: { $0.dayCount = 5; $0.columns = 5 }, scheme: .dark),
+            Variant(name: "small-14days-7cols", size: .small,
+                    configure: { $0.dayCount = 14; $0.columns = 7; $0.fontSize = 8; $0.showStartTime = false }, scheme: .dark),
             Variant(name: "medium", size: .medium),
             Variant(name: "medium-dark", size: .medium, scheme: .dark),
             Variant(name: "medium-tinted", size: .medium, scheme: .dark, accented: true),
