@@ -1,0 +1,235 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "NSCalendarsFullAccessUsageDescription": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يعرض WeekPeek أحداثك في الأداة."
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показва събитията ви в уиджета."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek mostra els teus esdeveniments al widget."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zobrazuje vaše události ve widgetu."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek viser dine aftaler i widgetten."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zeigt deine Termine im Widget an."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το WeekPeek δείχνει τα συμβάντα σας στο widget."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek muestra tus eventos en el widget."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek muestra tus eventos en el widget."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek näyttää tapahtumasi widgetissä."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek affiche vos événements dans le widget."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek מציג את האירועים שלך בווידג׳ט."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek आपके इवेंट विजेट में दिखाता है।"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek prikazuje vaše događaje u widgetu."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A WeekPeek a widgetben mutatja az eseményeidet."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek menampilkan acara Anda di widget."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek mostra i tuoi eventi nel widget."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeekはウィジェットに予定を表示します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek은 위젯에 일정을 표시합니다."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek rodo jūsų įvykius valdiklyje."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek menunjukkan acara anda dalam widget."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek viser hendelsene dine i widgeten."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek toont je activiteiten in de widget."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek pokazuje Twoje wydarzenia w widżecie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek mostra seus eventos no widget."
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek mostra os seus eventos no widget."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek afișează evenimentele tale în widget."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показывает ваши события в виджете."
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zobrazuje vaše udalosti vo widgete."
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek prikazuje vaše dogodke v pripomočku."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek visar dina händelser i widgeten."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek แสดงกิจกรรมของคุณในวิดเจ็ต"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek etkinliklerinizi widget’ta gösterir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показує ваші події у віджеті."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek hiển thị các sự kiện của bạn trong tiện ích."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 在小组件中显示你的日程。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 會在小工具中顯示你的行程。"
+          }
+        }
+      }
+    },
+    "CFBundleDisplayName": {
+      "shouldTranslate": false
+    }
+  }
+}

@@ -1,0 +1,78 @@
+name: KalenderWidget
+options:
+  bundleIdPrefix: dk.erik
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "5"
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+targets:
+  KalenderWidget:
+    type: application
+    platform: iOS
+    sources: [App, Shared]
+    dependencies:
+      - target: KalenderWidgetExtension
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ar, bg, ca, cs, da, de, el, es, es-419, fi, fr, he, hi, hr, hu, id, it, ja, ko, lt, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru, sk, sl, sv, th, tr, uk, vi, zh-Hans, zh-Hant]
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleDisplayName: WeekPeek
+        UILaunchScreen: {}
+        ITSAppUsesNonExemptEncryption: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        NSCalendarsFullAccessUsageDescription: "WeekPeek shows your events in the widget."
+        CFBundleURLTypes:
+          - CFBundleURLName: dk.erik.kalenderwidget
+            CFBundleURLSchemes: [kalenderwidget]
+        LSApplicationQueriesSchemes: [googlecalendar, ms-outlook, x-fantastical3, calshow]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dk.erik.kalenderwidget
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  KalenderWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources: [Widget, Shared]
+    info:
+      path: Widget/Info.plist
+      properties:
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ar, bg, ca, cs, da, de, el, es, es-419, fi, fr, he, hi, hr, hu, id, it, ja, ko, lt, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru, sk, sl, sv, th, tr, uk, vi, zh-Hans, zh-Hant]
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleDisplayName: WeekPeek
+        NSCalendarsFullAccessUsageDescription: "WeekPeek shows your events in the widget."
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dk.erik.kalenderwidget.widget
+  KalenderWidgetTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: KalenderWidget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dk.erik.kalenderwidget.tests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  KalenderWidget:
+    build:
+      targets:
+        KalenderWidget: all
+    test:
+      targets: [KalenderWidgetTests]
