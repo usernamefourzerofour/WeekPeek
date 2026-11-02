@@ -76,4 +76,12 @@ Decision: **non-trader**. The app is free with no ads, in-app purchases or subsc
 
 ## Screenshots
 
-Still to do (open item 2). Required: 6.9" iPhone (1320 × 2868 or 2868 × 1320). Ideas: Home Screen with large widget; small + medium side by side; Edit Widget settings; StandBy; a right-to-left language.
+Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868, sample events only):
+
+1. `1-week.png`: Your week at a glance (large + medium)
+2. `2-styles.png`: Light, dark or tinted
+3. `3-yours.png`: Make every widget your own (stripe, 10 days, big text)
+4. `4-languages.png`: Speaks your language (Danish)
+5. `5-private.png`: Private by design
+
+Widgets come from the render tests; `tools/` has no script for this yet, the composition was done with Pillow in the cloud environment.
