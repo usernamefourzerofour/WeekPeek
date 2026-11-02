@@ -76,9 +76,12 @@ Decision: **non-trader**. The app is free with no ads, in-app purchases or subsc
 
 ## Screenshots
 
-Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868). Real Home Screen screenshots from the iPhone 17 Pro Max Simulator, with sample events seeded by `Tests/SampleCalendarSeeder.swift` (plus the Simulator's built-in US holidays), framed with a headline:
+Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868, sample events only). Headline on a pastel background above a Home Screen: the real Simulator wallpaper (blurred), real app icons and dock, and the widgets from the render tests with their "WeekPeek" label.
 
 1. `1-week.png`: Your week at a glance (large widget)
-2. `2-sizes.png`: Every widget your own (small + large)
-3. `3-dark.png`: Made for dark mode too
+2. `2-styles.png`: Light, dark or tinted
+3. `3-yours.png`: Make every widget your own (stripe, 10 days, big text)
 4. `4-languages.png`: Speaks your language (Danish)
+5. `5-private.png`: Private by design (small widget beside app icons, dark widget)
+
+`Tests/SampleCalendarSeeder.swift` seeds the Simulator's calendar with the same sample events, for real Home Screen screenshots.
