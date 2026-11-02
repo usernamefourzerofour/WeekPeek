@@ -2,6 +2,10 @@
 
 A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming events in a compact grid on the Home Screen and opens your calendar app on the day you tap.
 
+<p align="center">
+  <img src="docs/screenshots/sizes.png" alt="WeekPeek widgets in small, medium and large size" width="640">
+</p>
+
 ## Features
 
 - Small, medium and large Home Screen widgets, also shown in StandBy
@@ -17,6 +21,10 @@ A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming even
 - 38 languages, following the iPhone's language (including right-to-left)
 
 Every setting is per widget, under **Edit Widget**.
+
+<p align="center">
+  <img src="docs/screenshots/styles.png" alt="Dark, tinted, color stripe with week numbers, and 10 days in Danish" width="720">
+</p>
 
 ## Privacy
 
