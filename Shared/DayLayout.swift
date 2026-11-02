@@ -56,15 +56,50 @@ enum DayLayout {
         settings.showStartTime && !e.isAllDay && calendar.isDate(e.start, inSameDayAs: day)
     }
 
-    /// Short day header in the user's language, e.g. "Mon 2" / "man. 2.".
-    static func header(for date: Date, locale: Locale = .autoupdatingCurrent,
+    /// How much of the day header fits: "Mon 2" / "man. 2.", then "M 2", then just "2".
+    enum HeaderStyle: CaseIterable {
+        case full, narrow, number
+
+        var template: String {
+            switch self {
+            case .full: return "EEEd"
+            case .narrow: return "EEEEEd"
+            case .number: return "d"
+            }
+        }
+    }
+
+    /// Day header in the user's language.
+    static func header(for date: Date, style: HeaderStyle = .full, locale: Locale = .autoupdatingCurrent,
                        calendar: Calendar = .current) -> String {
         let f = DateFormatter()
         f.locale = locale
         f.calendar = calendar
         f.timeZone = calendar.timeZone
-        f.setLocalizedDateFormatFromTemplate("EEEd")
+        f.setLocalizedDateFormatFromTemplate(style.template)
         return f.string(from: date)
+    }
+
+    /// The longest header style where every day's header fits the column (allowing a little shrinking),
+    /// so all columns use the same style.
+    static func headerStyle(for days: [Date], width: CGFloat, font: CGFloat,
+                            locale: Locale, calendar: Calendar = .current) -> HeaderStyle {
+        let f = UIFont.systemFont(ofSize: font + 1, weight: .bold)
+        for style in HeaderStyle.allCases {
+            let widest = days.map { (header(for: $0, style: style, locale: locale, calendar: calendar) as NSString)
+                .size(withAttributes: [.font: f]).width }.max() ?? 0
+            // Same safety margin as LineFit; the header may shrink to 85 % before a shorter style is used.
+            if (widest * 1.08 + 2) * 0.85 <= width { return style }
+        }
+        return .number
+    }
+
+    /// Whether each row gets a week label: not when it shows only the week the previous row ended in.
+    static func showsWeekLabel(rows: [[Date]], calendar: Calendar = .current) -> [Bool] {
+        let weeks = rows.map { (weekNumber($0.first!, calendar: calendar), weekNumber($0.last!, calendar: calendar)) }
+        return weeks.indices.map { r in
+            r == 0 || !(weeks[r].0 == weeks[r - 1].1 && weeks[r].1 == weeks[r - 1].1)
+        }
     }
 
     static func startTime(_ date: Date, locale: Locale, calendar: Calendar = .current) -> String {

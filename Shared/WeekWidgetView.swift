@@ -44,23 +44,26 @@ struct WeekWidgetView: View {
         let days = DayLayout.dayStarts(now: model.now, count: spec.days, start: s.startDay, calendar: calendar)
         let rows = stride(from: 0, to: days.count, by: spec.columns).map { Array(days[$0..<min($0 + spec.columns, days.count)]) }
         let font = s.clampedFontSize
-        let labelH = s.showWeekNumber ? LineFit.weekLabelHeight(font: font) : 0
+        let labelH = LineFit.weekLabelHeight(font: font)
+        let labels = s.showWeekNumber ? DayLayout.showsWeekLabel(rows: rows, calendar: calendar) : rows.map { _ in false }
+        let labelCount = CGFloat(labels.filter { $0 }.count)
         return GeometryReader { geo in
-            let usable = geo.size.height - labelH * CGFloat(rows.count) - Metrics.rowSpacing * CGFloat(rows.count - 1)
+            let usable = geo.size.height - labelH * labelCount - Metrics.rowSpacing * CGFloat(rows.count - 1)
             let rowH = usable / CGFloat(max(1, rows.count))
             let colW = (geo.size.width - Metrics.columnSpacing * CGFloat(spec.columns - 1)) / CGFloat(spec.columns)
+            let headerStyle = DayLayout.headerStyle(for: days, width: colW, font: font, locale: locale, calendar: calendar)
             VStack(alignment: .leading, spacing: 0) {
                 ForEach(Array(rows.enumerated()), id: \.offset) { r, row in
                     if r > 0 {
                         // With week labels, the label line separates the weeks instead.
-                        if s.showWeekNumber {
+                        if labels[r] {
                             Color.clear.frame(height: Metrics.rowSpacing)
                         } else {
                             separator.frame(height: 0.5).frame(maxWidth: .infinity)
                                 .padding(.vertical, (Metrics.rowSpacing - 0.5) / 2)
                         }
                     }
-                    if s.showWeekNumber {
+                    if labels[r] {
                         weekLabel(row, font: font).frame(height: labelH)
                     }
                     HStack(alignment: .top, spacing: 0) {
@@ -70,7 +73,7 @@ struct WeekWidgetView: View {
                                     .padding(.horizontal, (Metrics.columnSpacing - 0.5) / 2)
                             }
                             if c < row.count {
-                                cell(day: row[c], width: colW, height: rowH)
+                                cell(day: row[c], width: colW, height: rowH, headerStyle: headerStyle)
                             } else {
                                 Color.clear.frame(width: colW, height: rowH)
                             }
@@ -108,8 +111,8 @@ struct WeekWidgetView: View {
     }
 
     @ViewBuilder
-    private func cell(day: Date, width: CGFloat, height: CGFloat) -> some View {
-        let column = DayColumn(model: model, day: day, width: width, height: height,
+    private func cell(day: Date, width: CGFloat, height: CGFloat, headerStyle: DayLayout.HeaderStyle) -> some View {
+        let column = DayColumn(model: model, day: day, width: width, height: height, headerStyle: headerStyle,
                                calendar: calendar, locale: locale, accented: accented)
         if size == .small {
             column  // Small widgets only support a single tap target.
@@ -126,6 +129,7 @@ struct DayColumn: View {
     let day: Date
     let width: CGFloat
     let height: CGFloat
+    var headerStyle: DayLayout.HeaderStyle = .full
     let calendar: Calendar
     let locale: Locale
     let accented: Bool
@@ -195,7 +199,7 @@ struct DayColumn: View {
     }
 
     private func header(isToday: Bool) -> some View {
-        Text(DayLayout.header(for: day, locale: locale, calendar: calendar))
+        Text(DayLayout.header(for: day, style: headerStyle, locale: locale, calendar: calendar))
             .font(.system(size: font + 1, weight: isToday ? .bold : .semibold))
             .foregroundStyle(isToday ? Color.red : Color.primary)
             .widgetAccentable(isToday)

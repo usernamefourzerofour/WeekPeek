@@ -46,7 +46,9 @@ final class DayLayoutTests: XCTestCase {
         XCTAssertEqual(s.grid(for: .large).rows, 2)
         s.dayCount = 8; s.columns = 5
         XCTAssertEqual(s.grid(for: .medium).rows, 2)
-        XCTAssertEqual(s.grid(for: .small), GridSpec(days: 6, columns: 3))
+        XCTAssertEqual(s.grid(for: .small), GridSpec(days: 8, columns: 5), "Small allows dense layouts for StandBy")
+        s.dayCount = 14; s.columns = 7
+        XCTAssertEqual(s.grid(for: .small), GridSpec(days: 14, columns: 7))
         s.dayCount = 3; s.columns = 7
         XCTAssertEqual(s.grid(for: .large).columns, 3, "No more columns than days")
         s.dayCount = 10; s.columns = nil
@@ -98,6 +100,25 @@ final class DayLayoutTests: XCTestCase {
         XCTAssertTrue(da.lowercased().contains("man"), da)
         XCTAssertTrue(en.contains("Mon"), en)
         XCTAssertEqual(DayLayout.weekNumber(d(2), calendar: cal), 45)
+    }
+
+    func testHeaderStyleShortensForNarrowColumns() {
+        let en = Locale(identifier: "en_US")
+        let days = (2...6).map { d($0) }
+        XCTAssertEqual(DayLayout.headerStyle(for: days, width: 120, font: 11, locale: en, calendar: cal), .full)
+        XCTAssertEqual(DayLayout.headerStyle(for: days, width: 4, font: 11, locale: en, calendar: cal), .number)
+        XCTAssertEqual(DayLayout.header(for: d(2), style: .number, locale: en, calendar: cal), "2")
+        let narrow = DayLayout.header(for: d(2), style: .narrow, locale: en, calendar: cal)
+        XCTAssertTrue(narrow.contains("M") && narrow.contains("2"), narrow)
+    }
+
+    func testRepeatedWeekLabelIsHidden() {
+        // Mon–Wed and Thu–Fri of week 45: only the first row is labelled.
+        XCTAssertEqual(DayLayout.showsWeekLabel(rows: [[d(2), d(3), d(4)], [d(5), d(6)]], calendar: cal), [true, false])
+        // Fri–Sun (45) then Mon (46): new week, new label.
+        XCTAssertEqual(DayLayout.showsWeekLabel(rows: [[d(6), d(7), d(8)], [d(9)]], calendar: cal), [true, true])
+        // Sat–Mon (45–46) then Tue (46): already labelled.
+        XCTAssertEqual(DayLayout.showsWeekLabel(rows: [[d(7), d(8), d(9)], [d(10)]], calendar: cal), [true, false])
     }
 }
 
@@ -187,6 +208,13 @@ final class RenderTests: XCTestCase {
 
         let variants: [Variant] = [
             Variant(name: "small", size: .small),
+            Variant(name: "small-5days-3cols-week", size: .small, scheme: .dark) {
+                $0.dayCount = 5; $0.columns = 3; $0.showWeekNumber = true
+            },
+            Variant(name: "small-5cols", size: .small, scheme: .dark) { $0.dayCount = 5; $0.columns = 5 },
+            Variant(name: "small-14days-7cols", size: .small, scheme: .dark) {
+                $0.dayCount = 14; $0.columns = 7; $0.fontSize = 8; $0.showStartTime = false
+            },
             Variant(name: "medium", size: .medium),
             Variant(name: "medium-dark", size: .medium, scheme: .dark),
             Variant(name: "medium-tinted", size: .medium, scheme: .dark, accented: true),

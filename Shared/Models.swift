@@ -35,8 +35,10 @@ enum WidgetSize: String, CaseIterable, Hashable {
         }
     }
 
-    var maxDays: Int { self == .small ? 6 : 14 }
-    var maxColumns: Int { self == .small ? 3 : 7 }
+    /// Same limits for every size: in StandBy the small widget is scaled up, so dense layouts stay readable.
+    /// Narrow columns fall back to shorter day headers (`DayLayout.HeaderStyle`).
+    var maxDays: Int { 14 }
+    var maxColumns: Int { 7 }
     var padding: CGFloat { self == .large ? 12 : 10 }
 }
 

@@ -72,7 +72,7 @@ xcodebuild test -project KalenderWidget.xcodeproj -scheme KalenderWidget \
 
 ## Releasing to TestFlight
 
-1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 5 is the latest uploaded; next is 6). Info.plists read the version from there.
+1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 6 is the latest uploaded; next is 7). Info.plists read the version from there.
 2. Archive and export with the signing files NoMac installs on every Mac:
 
 ```sh
