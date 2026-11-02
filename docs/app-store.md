@@ -9,14 +9,14 @@ Working notes for the App Store Connect listing. English is the primary language
 | Name | WeekPeek: Calendar Widget | 30 |
 | Subtitle | Your week on the Home Screen | 30 |
 | Category | Productivity (secondary: Utilities) | |
-| Price | To be decided by Erik (see "Price" below) | |
+| Price | Free (no in-app purchases, no ads) | |
 | Privacy Policy URL | Link to `PRIVACY.md` (or a GitHub Pages copy) once the repo is public | |
 | Support URL | `https://github.com/usernamefourzerofour/WeekPeek/issues` | |
 | Copyright | 2026 Erik Bouvin Poulsen | |
 
 ## Promotional text (170 characters)
 
-> See your week at a glance, right on your Home Screen. Every widget has its own settings. Open source: buy it to support the project, or build it yourself for free.
+> See your week at a glance, right on your Home Screen. Every widget has its own settings. Free, open source, no ads and no tracking.
 
 ## Keywords (100 characters, comma-separated, no spaces)
 
@@ -50,9 +50,9 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 > WeekPeek collects no data. It has no network code, no analytics and no tracking. Your events are read on your iPhone and never leave it.
 >
 > AN HONEST NOTE
-> WeekPeek is a hobby project, "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is not made to earn money. The price is a hope of covering part of the costs of building and publishing it.
+> WeekPeek is a free hobby project, "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is not made to earn money: no ads, no in-app purchases, no subscriptions.
 >
-> The full source code is open under the MIT license. If you would rather not pay, you are welcome to build it yourself from GitHub. Feedback, translation fixes and ideas are very welcome there too.
+> The full source code is open under the MIT license on GitHub. Feedback, translation fixes and ideas are very welcome there.
 
 ## App Review notes
 
@@ -68,15 +68,11 @@ All content questions: **None / No** (no violence, mature themes, gambling, user
 
 ## EU trader status (Digital Services Act)
 
-Apple requires every developer who distributes in the EU to declare **trader** or **non-trader**. A trader's address, phone and email are shown publicly on the App Store page.
+Decision: **non-trader**. The app is free with no ads, in-app purchases or subscriptions, so Erik does not act as a trader.
 
-- Charging money for an app can count as acting as a trader, even for a hobby project. Apple asks you to decide yourself and does not give legal advice.
-- Options: declare as trader (contact details become public; a separate email and possibly a business address are a good idea), or make the app free and declare non-trader.
-- This is Erik's decision. If unsure, Erhvervsstyrelsen or Forbrugerombudsmanden can advise.
-
-## Price
-
-The goal is to cover part of the costs (Apple Developer Program, cloud Mac time, AI tools), not to make a profit. Suggestion: the lowest price tier (around 9 kr / $0.99), one-time purchase, no in-app purchases or subscriptions. Remember that a paid app needs the Paid Apps Agreement and bank/tax details in App Store Connect.
+- Non-traders' address, phone and email are not shown on the App Store page.
+- The developer name shown on the App Store is still Erik's legal name (individual developer account).
+- Linking to donations or other income later could change this; check first.
 
 ## Screenshots
 

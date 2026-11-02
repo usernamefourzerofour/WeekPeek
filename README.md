@@ -62,9 +62,7 @@ The project and targets are still named `KalenderWidget` from the first prototyp
 
 ## About this project
 
-WeekPeek is a hobby project, openly "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is not made to earn money.
-
-If WeekPeek is sold on the App Store, the price is only a hope of covering part of the costs (Apple Developer Program, cloud Mac time, AI tools). You are free to do whatever the license allows: build it yourself from this repository at no cost, change it, or share it.
+WeekPeek is a hobby project, openly "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is free, has no ads or in-app purchases, and is not made to earn money. You are free to do whatever the MIT license allows: build it yourself, change it or share it.
 
 Issues and pull requests are welcome, but responses may be slow.
 
