@@ -86,6 +86,19 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 3. `send_to_testflight` with the absolute path `/Users/agent/drive/src/KalenderWidget/build/export/KalenderWidget.ipa` and short "What to Test" notes in English. Stop the Mac once Apple has the build; processing needs no Mac. NoMac project id: `prj_IRXZqUSLAVZvkO1M4C7DI`.
 4. Apple rejects builds without all four interface orientations (`ITMS-90474`); they are set in `project.yml`. Encryption export compliance is answered in `Info.plist` (`ITSAppUsesNonExemptEncryption: false`). The app collects no data (`Shared/PrivacyInfo.xcprivacy`).
 
+## App Store status (3 Nov 2026)
+
+- Build 6 (1.0) is on TestFlight; it is the build to submit. Repository is public; PR #1 is merged.
+- App Store Connect (version 1.0, en-US) is filled in via NoMac: listing texts from `docs/app-store.md`, URLs, category Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating (all none). Screenshots from `docs/appstore/` are in ASC.
+- Erik has done App Privacy ("Data Not Collected") and DSA "not a trader" (account-wide, also covers "Rene hænder"). "Sign-in required" is unchecked.
+- Still open: Erik must confirm the third-party content answer (expected "No"); then `publish` preview with build `bld_WloZXwGH4vJApt9pi7SU8`, show Erik, submit on his yes. "Automatically release" is selected.
+- Blocker on 2 Nov: NoMac screenshot operation `ssr_0d50833b…` stuck in "replacing", so `publish` answers `apple_edit_in_progress`. Ticket `tkt_deNVRqoTuyz4ZQRTLtCa5` (read replies with `report_issue` without description). Fallback: Erik adds build 6 and submits in ASC himself.
+
+NoMac lessons:
+- `upload_screenshots` only accepts `create_mac_link` download links (or base64); GitHub links are refused. A 1-minute Mac that curls the PNGs from GitHub is enough; the links outlive the Mac.
+- The age rating needs `socialMedia` besides the usual keys.
+- `review_contact.demo_account_required: false` did not clear "Sign-in required" in ASC; check it by hand.
+
 ## Commits
 
 Commit messages in English, imperative mood. End them with:
