@@ -76,7 +76,7 @@ Decision: **non-trader**. The app is free with no ads, in-app purchases or subsc
 
 ## Screenshots
 
-Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868, sample events only). Headline on a pastel background above a Home Screen: the real Simulator wallpaper (blurred), real app icons and dock, and the widgets from the render tests with their "WeekPeek" label.
+Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868, sample events only). Headline on a pastel background above a Home Screen: a soft gradient wallpaper, real app icons and dock, and the widgets from the render tests with their "WeekPeek" label.
 
 1. `1-week.png`: Your week at a glance (large widget)
 2. `2-styles.png`: Light, dark or tinted
