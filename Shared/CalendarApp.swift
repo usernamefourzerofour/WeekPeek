@@ -29,8 +29,8 @@ enum CalendarApp: String, AppEnum, CaseIterable, Hashable {
         switch self {
         case .google: return URL(string: "googlecalendar://")!
         case .apple: return URL(string: "calshow://")!
-        // Undocumented by Microsoft, but opens Outlook on iOS.
-        case .outlook: return URL(string: "ms-outlook://")!
+        // Undocumented by Microsoft; "events" opens Outlook on its calendar tab.
+        case .outlook: return URL(string: "ms-outlook://events")!
         case .fantastical: return URL(string: "x-fantastical3://")!
         }
     }

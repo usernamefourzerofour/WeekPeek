@@ -56,15 +56,73 @@ enum DayLayout {
         settings.showStartTime && !e.isAllDay && calendar.isDate(e.start, inSameDayAs: day)
     }
 
-    /// Short day header in the user's language, e.g. "Mon 2" / "man. 2.".
-    static func header(for date: Date, locale: Locale = .autoupdatingCurrent,
+    /// How much of the day header fits: "Mon 2" / "man. 2.", then "M 2", then just "2".
+    enum HeaderStyle: CaseIterable {
+        case full, narrow, number
+
+        var template: String {
+            switch self {
+            case .full: return "EEEd"
+            case .narrow: return "EEEEEd"
+            case .number: return "d"
+            }
+        }
+    }
+
+    /// Day header in the user's language.
+    static func header(for date: Date, style: HeaderStyle = .full, locale: Locale = .autoupdatingCurrent,
                        calendar: Calendar = .current) -> String {
         let f = DateFormatter()
         f.locale = locale
         f.calendar = calendar
         f.timeZone = calendar.timeZone
-        f.setLocalizedDateFormatFromTemplate("EEEd")
+        f.setLocalizedDateFormatFromTemplate(style.template)
         return f.string(from: date)
+    }
+
+    /// The longest header style where every day's header fits the column (allowing a little shrinking),
+    /// so all columns use the same style.
+    static func headerStyle(for days: [Date], width: CGFloat, font: CGFloat,
+                            locale: Locale, calendar: Calendar = .current) -> HeaderStyle {
+        let f = UIFont.systemFont(ofSize: font + 1, weight: .bold)
+        for style in HeaderStyle.allCases {
+            let widest = days.map { (header(for: $0, style: style, locale: locale, calendar: calendar) as NSString)
+                .size(withAttributes: [.font: f]).width }.max() ?? 0
+            // Same safety margin as LineFit; the header may shrink to 85 % before a shorter style is used.
+            if (widest * 1.08 + 2) * 0.85 <= width { return style }
+        }
+        return .number
+    }
+
+    /// What fits in narrow columns (dense small widgets, e.g. in StandBy). Same for every column.
+    struct Density: Equatable {
+        var header: HeaderStyle = .full
+        /// Start times are dropped when "10:00" does not fit on a line.
+        var showsTimes = true
+        /// Chips become plain color blocks when not even two letters fit.
+        var showsTitles = true
+        /// "+3 more" becomes "+3" when day headers are shortened.
+        var shortMore: Bool { header != .full }
+    }
+
+    static func density(for days: [Date], columnWidth: CGFloat, style: ColorStyle, font: CGFloat,
+                        locale: Locale, calendar: Calendar = .current) -> Density {
+        let textW = LineFit.textWidth(chipWidth: columnWidth, style: style)
+        let sampleTime = calendar.date(bySettingHour: 10, minute: 0, second: 0, of: days.first ?? Date()) ?? Date()
+        let time = (startTime(sampleTime, locale: locale, calendar: calendar) as NSString)
+            .size(withAttributes: [.font: UIFont.monospacedDigitSystemFont(ofSize: font, weight: .bold)]).width
+        let twoLetters = ("Wa…" as NSString).size(withAttributes: [.font: UIFont.systemFont(ofSize: font, weight: .medium)]).width
+        return Density(header: headerStyle(for: days, width: columnWidth, font: font, locale: locale, calendar: calendar),
+                       showsTimes: time * 0.75 <= textW,   // the time may shrink to 70 % (minimumScaleFactor)
+                       showsTitles: twoLetters <= textW)
+    }
+
+    /// Whether each row gets a week label: not when it shows only the week the previous row ended in.
+    static func showsWeekLabel(rows: [[Date]], calendar: Calendar = .current) -> [Bool] {
+        let weeks = rows.map { (weekNumber($0.first!, calendar: calendar), weekNumber($0.last!, calendar: calendar)) }
+        return weeks.indices.map { r in
+            r == 0 || !(weeks[r].0 == weeks[r - 1].1 && weeks[r].1 == weeks[r - 1].1)
+        }
     }
 
     static func startTime(_ date: Date, locale: Locale, calendar: Calendar = .current) -> String {

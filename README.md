@@ -2,6 +2,10 @@
 
 A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming events in a compact grid on the Home Screen and opens your calendar app on the day you tap.
 
+<p align="center">
+  <img src="docs/screenshots/sizes.png" alt="WeekPeek widgets in small, medium and large size" width="640">
+</p>
+
 ## Features
 
 - Small, medium and large Home Screen widgets, also shown in StandBy
@@ -18,9 +22,13 @@ A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming even
 
 Every setting is per widget, under **Edit Widget**.
 
+<p align="center">
+  <img src="docs/screenshots/styles.png" alt="Dark, tinted, color stripe with week numbers, and 10 days in Danish" width="720">
+</p>
+
 ## Privacy
 
-WeekPeek collects no data. It has no network code, analytics or tracking. Events are read on the device through EventKit and never leave it.
+WeekPeek collects no data. It has no network code, analytics or tracking. Events are read on the device through EventKit and never leave it. See the full [privacy policy](PRIVACY.md).
 
 ## Building
 
@@ -56,13 +64,15 @@ The project and targets are still named `KalenderWidget` from the first prototyp
 
 ## Known limitations
 
-- Google Calendar and Outlook have no documented link to a specific date, so they open on today. Apple Calendar and Fantastical open the tapped day.
+- Google Calendar and Outlook have no documented link to a specific date, so they open on today (Outlook on its calendar tab). Apple Calendar and Fantastical open the tapped day.
 - Text fitting in the widget uses measured estimates; very narrow layouts (7 columns in the large widget) truncate titles quickly.
 - Translations have not yet been reviewed by native speakers. Corrections are very welcome.
 
 ## About this project
 
-WeekPeek was built with the help of AI (Claude by Anthropic) and is maintained in spare time. Issues and pull requests are welcome, but responses may be slow.
+WeekPeek is a hobby project, openly "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is free, has no ads or in-app purchases, and is not made to earn money. You are free to do whatever the MIT license allows: build it yourself, change it or share it.
+
+Issues and pull requests are welcome, but responses may be slow.
 
 ## License
 
