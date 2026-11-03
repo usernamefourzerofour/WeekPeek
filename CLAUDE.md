@@ -89,11 +89,11 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 
 ## App Store status (3 Nov 2026)
 
-- Build 6 (1.0) is on TestFlight but declares iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target), so Apple asks for iPad screenshots. Build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, uploaded 3 Nov) sets "1" on both targets and is the build to submit. Repository is public; PR #1 is merged.
-- App Store Connect (version 1.0, en-US) is filled in via NoMac: listing texts from `docs/app-store.md`, URLs, category Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating (all none). Screenshots from `docs/appstore/` are in ASC.
-- Erik has done App Privacy ("Data Not Collected") and DSA "not a trader" (account-wide, also covers "Rene hænder"). "Sign-in required" is unchecked.
-- Content rights ("No") and App Privacy are published. Still open: `publish` preview with build `bld_ZW2u522DvkD2K9IsJ1Kfd`, show Erik, submit on his yes. "Automatically release" is selected.
-- NoMac's screenshot upload of 5 images takes 10–15 minutes ("replacing" means still working); `publish` answers `apple_edit_in_progress` until it is done.
+- Version 1.0, build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, iPhone only) was submitted to App Review on 3 Nov (submission `fd5b017e-a164-4773-b536-d0eb780aba93`), released automatically after approval. Check with `get_review`; reviewer messages are only in App Store Connect.
+- Build 6 declared iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target unless each target sets "1"), so Apple asked for iPad screenshots.
+- Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Not built yet. For 1.1, also put the "WORKS WITH THE CALENDARS ON YOUR IPHONE" paragraph from `docs/app-store.md` into the App Store description and add short "What's New" notes.
+- App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
+- Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
 
 NoMac lessons:
 - `upload_screenshots` only accepts `create_mac_link` download links (or base64); GitHub links are refused. A 1-minute Mac that curls the PNGs from GitHub is enough; the links outlive the Mac.
