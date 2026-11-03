@@ -72,7 +72,7 @@ xcodebuild test -project KalenderWidget.xcodeproj -scheme KalenderWidget \
 
 ## Releasing to TestFlight
 
-1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 6 is the latest uploaded; next is 7). Info.plists read the version from there.
+1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 7 is the latest uploaded; next is 8). Info.plists read the version from there.
 2. Archive and export with the signing files NoMac installs on every Mac:
 
 ```sh
@@ -88,11 +88,11 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 
 ## App Store status (3 Nov 2026)
 
-- Build 6 (1.0) is on TestFlight but declares iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target), so Apple asks for iPad screenshots. Build 7 sets "1" on both targets and is the build to submit. Repository is public; PR #1 is merged.
+- Build 6 (1.0) is on TestFlight but declares iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target), so Apple asks for iPad screenshots. Build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, uploaded 3 Nov) sets "1" on both targets and is the build to submit. Repository is public; PR #1 is merged.
 - App Store Connect (version 1.0, en-US) is filled in via NoMac: listing texts from `docs/app-store.md`, URLs, category Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating (all none). Screenshots from `docs/appstore/` are in ASC.
 - Erik has done App Privacy ("Data Not Collected") and DSA "not a trader" (account-wide, also covers "Rene hænder"). "Sign-in required" is unchecked.
-- Still open: Erik must confirm the third-party content answer (expected "No"); then `publish` preview with build `bld_WloZXwGH4vJApt9pi7SU8`, show Erik, submit on his yes. "Automatically release" is selected.
-- Blocker on 2 Nov: NoMac screenshot operation `ssr_0d50833b…` stuck in "replacing", so `publish` answers `apple_edit_in_progress`. Ticket `tkt_deNVRqoTuyz4ZQRTLtCa5` (read replies with `report_issue` without description). Fallback: Erik adds build 6 and submits in ASC himself.
+- Content rights ("No") and App Privacy are published. Still open: `publish` preview with build `bld_ZW2u522DvkD2K9IsJ1Kfd`, show Erik, submit on his yes. "Automatically release" is selected.
+- NoMac's screenshot upload of 5 images takes 10–15 minutes ("replacing" means still working); `publish` answers `apple_edit_in_progress` until it is done.
 
 NoMac lessons:
 - `upload_screenshots` only accepts `create_mac_link` download links (or base64); GitHub links are refused. A 1-minute Mac that curls the PNGs from GitHub is enough; the links outlive the Mac.
