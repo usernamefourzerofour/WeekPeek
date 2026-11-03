@@ -91,7 +91,7 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 
 - Version 1.0, build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, iPhone only) was submitted to App Review on 3 Nov (submission `fd5b017e-a164-4773-b536-d0eb780aba93`), released automatically after approval. Check with `get_review`; reviewer messages are only in App Store Connect.
 - Build 6 declared iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target unless each target sets "1"), so Apple asked for iPad screenshots.
-- Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Not built yet. For 1.1, also put the "WORKS WITH THE CALENDARS ON YOUR IPHONE" paragraph from `docs/app-store.md` into the App Store description and add short "What's New" notes.
+- Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Also a corrected guide line: only Apple Calendar and Fantastical open on the tapped day; Google Calendar, Outlook and the small widget open on today. Not built yet. For 1.1, also put the "WORKS WITH THE CALENDARS ON YOUR IPHONE" paragraph from `docs/app-store.md` into the App Store description and add short "What's New" notes.
 - App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
 - Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
 

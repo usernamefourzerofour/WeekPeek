@@ -1,6 +1,6 @@
 # WeekPeek
 
-A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming events in a compact grid on the Home Screen and opens your calendar app on the day you tap.
+A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming events in a compact grid on the Home Screen and opens your calendar app when you tap it (Apple Calendar and Fantastical on the tapped day).
 
 <p align="center">
   <img src="docs/screenshots/sizes.png" alt="WeekPeek widgets in small, medium and large size" width="640">

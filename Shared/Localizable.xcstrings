@@ -12480,228 +12480,228 @@
         }
       }
     },
-    "Tap a day to open your calendar app on that day.": {
+    "Tap a day to open your calendar app. Apple Calendar and Fantastical open on that day; Google Calendar and Outlook open on today. The small widget always opens on today.": {
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "اضغط على يوم لفتح تطبيق التقويم على ذلك اليوم."
+            "value": "اضغط على يوم لفتح تطبيق التقويم. يفتح تقويم Apple وFantastical على ذلك اليوم، بينما يفتح تقويم Google وOutlook على اليوم الحالي. تفتح الأداة الصغيرة دائمًا على اليوم الحالي."
           }
         },
         "bg": {
           "stringUnit": {
             "state": "translated",
-            "value": "Докоснете ден, за да отворите календарното приложение на този ден."
+            "value": "Докоснете ден, за да отворите приложението за календар. Календарът на Apple и Fantastical се отварят на този ден, а Google Календар и Outlook – на днешния. Малката приспособка винаги се отваря на днешния ден."
           }
         },
         "ca": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un dia per obrir la teva app de calendari en aquell dia."
+            "value": "Toca un dia per obrir l’app de calendari. El Calendari d’Apple i Fantastical s’obren en aquell dia; Google Calendar i Outlook s’obren en avui. El widget petit sempre s’obre en avui."
           }
         },
         "cs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Klepnutím na den otevřete kalendářovou aplikaci v daném dni."
+            "value": "Klepnutím na den otevřete aplikaci kalendáře. Kalendář Apple a Fantastical se otevřou na daném dni, Kalendář Google a Outlook na dnešku. Malý widget se vždy otevře na dnešku."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryk på en dag for at åbne din kalenderapp på den dag."
+            "value": "Tryk på en dag for at åbne din kalenderapp. Apple Kalender og Fantastical åbner på den dag; Google Kalender og Outlook åbner på i dag. Den lille widget åbner altid på i dag."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tippe auf einen Tag, um deine Kalender-App an diesem Tag zu öffnen."
+            "value": "Tippe auf einen Tag, um deine Kalender-App zu öffnen. Apple Kalender und Fantastical öffnen diesen Tag, Google Kalender und Outlook öffnen den heutigen Tag. Das kleine Widget öffnet immer den heutigen Tag."
           }
         },
         "el": {
           "stringUnit": {
             "state": "translated",
-            "value": "Αγγίξτε μια ημέρα για να ανοίξει η εφαρμογή ημερολογίου σε αυτή την ημέρα."
+            "value": "Αγγίξτε μια ημέρα για να ανοίξετε την εφαρμογή ημερολογίου. Το Ημερολόγιο της Apple και το Fantastical ανοίγουν σε εκείνη την ημέρα· το Google Calendar και το Outlook ανοίγουν στη σημερινή. Το μικρό widget ανοίγει πάντα στη σημερινή ημέρα."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un día para abrir tu app de calendario en ese día."
+            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en ese día; Google Calendar y Outlook se abren en hoy. El widget pequeño siempre se abre en hoy."
           }
         },
         "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un día para abrir tu app de calendario en ese día."
+            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en ese día; Google Calendar y Outlook se abren en hoy. El widget pequeño siempre se abre en hoy."
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Napauta päivää avataksesi kalenteriappisi kyseisenä päivänä."
+            "value": "Avaa kalenteriappi napauttamalla päivää. Apple-kalenteri ja Fantastical avautuvat kyseiseen päivään, Google-kalenteri ja Outlook tähän päivään. Pieni widget avautuu aina tähän päivään."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Touchez un jour pour ouvrir votre app de calendrier à cette date."
+            "value": "Touchez un jour pour ouvrir votre app de calendrier. Calendrier d’Apple et Fantastical s’ouvrent sur ce jour ; Google Agenda et Outlook s’ouvrent sur aujourd’hui. Le petit widget s’ouvre toujours sur aujourd’hui."
           }
         },
         "he": {
           "stringUnit": {
             "state": "translated",
-            "value": "הקישו על יום כדי לפתוח את יישום לוח השנה באותו יום."
+            "value": "הקישו על יום כדי לפתוח את יישום לוח השנה. לוח השנה של Apple ו‑Fantastical נפתחים באותו יום; Google Calendar ו‑Outlook נפתחים בהיום. הווידג׳ט הקטן תמיד נפתח בהיום."
           }
         },
         "hi": {
           "stringUnit": {
             "state": "translated",
-            "value": "उस दिन कैलेंडर ऐप खोलने के लिए किसी दिन पर टैप करें।"
+            "value": "अपना कैलेंडर ऐप खोलने के लिए किसी दिन पर टैप करें। Apple कैलेंडर और Fantastical उसी दिन पर खुलते हैं; Google कैलेंडर और Outlook आज पर खुलते हैं। छोटा विजेट हमेशा आज पर खुलता है।"
           }
         },
         "hr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dodirnite dan za otvaranje aplikacije kalendara na taj dan."
+            "value": "Dodirnite dan da biste otvorili aplikaciju kalendara. Appleov Kalendar i Fantastical otvaraju se na tom danu, a Google kalendar i Outlook na današnjem. Mali widget uvijek se otvara na današnjem danu."
           }
         },
         "hu": {
           "stringUnit": {
             "state": "translated",
-            "value": "Koppints egy napra, hogy azon a napon nyisd meg a naptár appot."
+            "value": "Koppints egy napra a naptárapp megnyitásához. Az Apple Naptár és a Fantastical azon a napon nyílik meg, a Google Naptár és az Outlook a mai napon. A kis widget mindig a mai napon nyílik meg."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketuk hari untuk membuka app kalender pada hari tersebut."
+            "value": "Ketuk hari untuk membuka app kalender Anda. Kalender Apple dan Fantastical terbuka di hari itu; Google Kalender dan Outlook terbuka di hari ini. Widget kecil selalu terbuka di hari ini."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tocca un giorno per aprire la tua app calendario in quel giorno."
+            "value": "Tocca un giorno per aprire la tua app calendario. Calendario di Apple e Fantastical si aprono su quel giorno; Google Calendar e Outlook si aprono su oggi. Il widget piccolo si apre sempre su oggi."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "日付をタップすると、その日のカレンダーAppが開きます。"
+            "value": "日付をタップするとカレンダーアプリが開きます。AppleのカレンダーとFantasticalはその日を、GoogleカレンダーとOutlookは今日を開きます。小さいウィジェットは常に今日を開きます。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "날짜를 탭하면 해당 날짜로 캘린더 앱이 열립니다."
+            "value": "날짜를 탭하면 캘린더 앱이 열립니다. Apple 캘린더와 Fantastical은 해당 날짜로, Google 캘린더와 Outlook은 오늘로 열립니다. 작은 위젯은 항상 오늘로 열립니다."
           }
         },
         "lt": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bakstelėkite dieną, kad atidarytumėte kalendoriaus programą tą dieną."
+            "value": "Bakstelėkite dieną, kad atidarytumėte kalendoriaus programą. „Apple“ kalendorius ir „Fantastical“ atsidaro toje dienoje, „Google“ kalendorius ir „Outlook“ – šiandienoje. Mažas valdiklis visada atsidaro šiandienoje."
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketik hari untuk membuka app kalendar pada hari tersebut."
+            "value": "Ketik hari untuk membuka app kalendar anda. Kalendar Apple dan Fantastical dibuka pada hari itu; Kalendar Google dan Outlook dibuka pada hari ini. Widget kecil sentiasa dibuka pada hari ini."
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Trykk på en dag for å åpne kalenderappen din på den dagen."
+            "value": "Trykk på en dag for å åpne kalenderappen din. Apple Kalender og Fantastical åpner den dagen; Google Kalender og Outlook åpner i dag. Den lille widgeten åpner alltid i dag."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tik op een dag om je agenda-app op die dag te openen."
+            "value": "Tik op een dag om je agenda-app te openen. Apple Agenda en Fantastical openen op die dag; Google Agenda en Outlook openen op vandaag. De kleine widget opent altijd op vandaag."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Stuknij dzień, aby otworzyć aplikację kalendarza na ten dzień."
+            "value": "Stuknij dzień, aby otworzyć aplikację kalendarza. Kalendarz Apple i Fantastical otwierają się na tym dniu; Kalendarz Google i Outlook otwierają się na dzisiejszym dniu. Mały widżet zawsze otwiera się na dzisiejszym dniu."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toque em um dia para abrir seu app de calendário nesse dia."
+            "value": "Toque em um dia para abrir seu app de calendário. O Calendário da Apple e o Fantastical abrem nesse dia; o Google Agenda e o Outlook abrem em hoje. O widget pequeno sempre abre em hoje."
           }
         },
         "pt-PT": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toque num dia para abrir a sua app de calendário nesse dia."
+            "value": "Toque num dia para abrir a sua app de calendário. O Calendário da Apple e o Fantastical abrem nesse dia; o Google Calendar e o Outlook abrem no dia de hoje. O widget pequeno abre sempre no dia de hoje."
           }
         },
         "ro": {
           "stringUnit": {
             "state": "translated",
-            "value": "Atinge o zi pentru a deschide app-ul de calendar în acea zi."
+            "value": "Atinge o zi pentru a deschide aplicația de calendar. Calendarul Apple și Fantastical se deschid la acea zi; Google Calendar și Outlook se deschid la ziua de azi. Widgetul mic se deschide mereu la ziua de azi."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Коснитесь дня, чтобы открыть приложение календаря на этом дне."
+            "value": "Коснитесь дня, чтобы открыть приложение календаря. Календарь Apple и Fantastical откроются на этом дне, Google Календарь и Outlook — на сегодняшнем. Маленький виджет всегда открывается на сегодняшнем дне."
           }
         },
         "sk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Klepnutím na deň otvoríte kalendárovú aplikáciu v daný deň."
+            "value": "Klepnutím na deň otvoríte aplikáciu kalendára. Kalendár Apple a Fantastical sa otvoria na danom dni, Kalendár Google a Outlook na dnešku. Malý widget sa vždy otvorí na dnešku."
           }
         },
         "sl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tapnite dan, da odprete aplikacijo za koledar na ta dan."
+            "value": "Tapnite dan, da odprete aplikacijo za koledar. Applov Koledar in Fantastical se odpreta na tem dnevu, Google Koledar in Outlook pa na današnjem. Majhen pripomoček se vedno odpre na današnjem dnevu."
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryck på en dag för att öppna din kalenderapp på den dagen."
+            "value": "Tryck på en dag för att öppna din kalenderapp. Apple Kalender och Fantastical öppnar den dagen; Google Kalender och Outlook öppnar i dag. Den lilla widgeten öppnar alltid i dag."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "แตะวันเพื่อเปิดแอปปฏิทินในวันนั้น"
+            "value": "แตะวันเพื่อเปิดแอปปฏิทินของคุณ ปฏิทินของ Apple และ Fantastical จะเปิดที่วันนั้น ส่วน Google ปฏิทินและ Outlook จะเปิดที่วันนี้ วิดเจ็ตขนาดเล็กจะเปิดที่วันนี้เสมอ"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Takvim uygulamanızı o gün açmak için bir güne dokunun."
+            "value": "Takvim uygulamanızı açmak için bir güne dokunun. Apple Takvim ve Fantastical o günde, Google Takvim ve Outlook bugünde açılır. Küçük widget her zaman bugünde açılır."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Торкніться дня, щоб відкрити програму календаря на цьому дні."
+            "value": "Торкніться дня, щоб відкрити програму календаря. Календар Apple і Fantastical відкриються на цьому дні, Google Календар і Outlook — на сьогоднішньому. Малий віджет завжди відкривається на сьогоднішньому дні."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chạm vào một ngày để mở ứng dụng lịch tại ngày đó."
+            "value": "Chạm vào một ngày để mở ứng dụng lịch. Lịch của Apple và Fantastical mở đúng ngày đó; Google Lịch và Outlook mở ngày hôm nay. Tiện ích nhỏ luôn mở ngày hôm nay."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "轻点某一天，即可在日历 App 中打开那一天。"
+            "value": "轻点某一天即可打开日历 App。Apple 日历和 Fantastical 会打开那一天；Google 日历和 Outlook 会打开今天。小号小组件总是打开今天。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "點一下某一天，即可在行事曆 App 中打開那一天。"
+            "value": "點一下某一天即可打開行事曆 App。Apple 行事曆和 Fantastical 會打開那一天；Google 日曆和 Outlook 會打開今天。小型小工具一律打開今天。"
           }
         }
       }

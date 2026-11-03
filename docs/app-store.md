@@ -28,7 +28,7 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 
 ## Description (4000 characters)
 
-> WeekPeek shows your upcoming events in a clean, compact grid on your Home Screen. Tap a day to open it in your calendar app.
+> WeekPeek shows your upcoming events in a clean, compact grid on your Home Screen. Tap the widget to open your calendar app (Apple Calendar and Fantastical open on the day you tap).
 >
 > WORKS WITH THE CALENDARS ON YOUR IPHONE
 > WeekPeek shows the calendars in your iPhone's Calendar: iCloud, Google, Microsoft Exchange and more. Using Google Calendar or Outlook? Add your account in Settings › Apps › Calendar › Calendar Accounts. Events that live only inside the Google Calendar or Outlook app can't be shown.
