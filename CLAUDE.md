@@ -88,7 +88,7 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 
 ## App Store status (3 Nov 2026)
 
-- Build 6 (1.0) is on TestFlight; it is the build to submit. Repository is public; PR #1 is merged.
+- Build 6 (1.0) is on TestFlight but declares iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target), so Apple asks for iPad screenshots. Build 7 sets "1" on both targets and is the build to submit. Repository is public; PR #1 is merged.
 - App Store Connect (version 1.0, en-US) is filled in via NoMac: listing texts from `docs/app-store.md`, URLs, category Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating (all none). Screenshots from `docs/appstore/` are in ASC.
 - Erik has done App Privacy ("Data Not Collected") and DSA "not a trader" (account-wide, also covers "Rene hænder"). "Sign-in required" is unchecked.
 - Still open: Erik must confirm the third-party content answer (expected "No"); then `publish` preview with build `bld_WloZXwGH4vJApt9pi7SU8`, show Erik, submit on his yes. "Automatically release" is selected.
