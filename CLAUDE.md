@@ -31,6 +31,7 @@ Names: the app is **WeekPeek** (App Store: "WeekPeek: Calendar Widget"), but tar
 - `LineFit` decides lines per event: Auto allows up to 3, shrinks the longest titles first, then shows "+N more". Text is measured with UIKit (`boundingRect`) plus a safety margin, because SwiftUI lays out slightly wider. A word that cannot fit is truncated on one line rather than wrapped mid-word.
 - Tapping a day opens the app through `kalenderwidget://open?app=…&date=…`; `Router` forwards to the chosen calendar app. Only Apple Calendar and Fantastical support a date; Google Calendar and Outlook (`ms-outlook://events`, undocumented; plain `ms-outlook://` only opens the last tab) open on today.
 - A widget cannot check which apps are installed, so the app list is static.
+- Events come only from the iPhone's calendar database (EventKit): accounts added under Settings › Apps › Calendar › Calendar Accounts. Events that live only in the Google Calendar or Outlook app are invisible. Erik decided to keep it that way (no network, no data collection); the app lists the accounts it finds and explains how to add one, with a warning when there are none or no events in the next two weeks.
 
 ## Localisation
 

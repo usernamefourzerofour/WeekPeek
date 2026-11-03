@@ -22,6 +22,8 @@ A week-at-a-glance calendar widget for iPhone. WeekPeek shows your upcoming even
 
 Every setting is per widget, under **Edit Widget**.
 
+WeekPeek shows the calendars on your iPhone (iCloud, Google, Microsoft Exchange and other accounts added under **Settings › Apps › Calendar › Calendar Accounts**). Events that live only inside the Google Calendar or Outlook app are not on the iPhone's calendar and cannot be shown. The app lists the calendar accounts it finds and explains how to add one.
+
 <p align="center">
   <img src="docs/screenshots/styles.png" alt="Dark, tinted, color stripe with week numbers, and 10 days in Danish" width="720">
 </p>

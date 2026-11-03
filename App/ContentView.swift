@@ -6,9 +6,22 @@ import WidgetKit
 final class CalendarAccess: ObservableObject {
     let store = EKEventStore()
     @Published var status = EKEventStore.authorizationStatus(for: .event)
+    /// Synced calendar accounts on the iPhone (iCloud, Google, Exchange …), by name.
+    @Published var accounts: [String] = []
+    @Published var hasUpcomingEvents = true
 
     func refresh() {
         status = EKEventStore.authorizationStatus(for: .event)
+        if status == .fullAccess {
+            store.refreshSourcesIfNecessary()
+            // Local, subscribed (holidays) and birthday calendars are not accounts the user set up.
+            let synced: Set<EKSourceType> = [.calDAV, .exchange, .mobileMe]
+            let calendars = store.calendars(for: .event).filter { synced.contains($0.source.sourceType) }
+            accounts = Array(Set(calendars.map(\.source.title))).sorted()
+            let start = Calendar.current.startOfDay(for: .now)
+            let end = Calendar.current.date(byAdding: .day, value: 14, to: start)!
+            hasUpcomingEvents = !store.events(matching: store.predicateForEvents(withStart: start, end: end, calendars: nil)).isEmpty
+        }
         WidgetCenter.shared.reloadAllTimelines()
     }
 
@@ -72,6 +85,30 @@ struct ContentView: View {
                         Button("Open Settings") { router.openRaw(settingsURL) }
                     }
                 }
+
+                if access.status == .fullAccess {
+                    Section("Your calendars") {
+                        if access.accounts.isEmpty {
+                            Label("No calendar accounts found on your iPhone", systemImage: "exclamationmark.triangle")
+                                .foregroundStyle(.orange)
+                        } else {
+                            Text("Found on your iPhone: \(access.accounts.formatted(.list(type: .and)))")
+                            if !access.hasUpcomingEvents {
+                                Label("No events in the next two weeks", systemImage: "calendar.badge.exclamationmark")
+                                    .foregroundStyle(.orange)
+                            }
+                        }
+                    }
+                }
+
+                // WeekPeek reads only the iPhone's own calendar database (EventKit), never the network.
+                Section("Using Google Calendar or Outlook?") {
+                    Text("WeekPeek shows only the calendars on your iPhone. Events that live only in the Google Calendar or Outlook app are not included. Add your account to your iPhone to see them:")
+                    Text("Settings › Apps › Calendar › Calendar Accounts › Add Account")
+                        .fontWeight(.semibold)
+                    Text("Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPhone.")
+                }
+                .font(.callout)
 
                 Section {
                     Button {
