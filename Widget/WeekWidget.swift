@@ -12,7 +12,8 @@ extension WidgetFamily {
     var size: WidgetSize {
         switch self {
         case .systemSmall: return .small
-        case .systemLarge, .systemExtraLarge: return .large
+        case .systemLarge: return .large
+        case .systemExtraLarge: return .extraLarge
         default: return .medium
         }
     }
@@ -29,7 +30,7 @@ struct WeekWidget: Widget {
         }
         .configurationDisplayName("WeekPeek")
         .description("Your upcoming events at a glance. Tap a day to open your calendar app.")
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
         .contentMarginsDisabled()
     }
 }

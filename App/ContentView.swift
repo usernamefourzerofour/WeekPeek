@@ -60,6 +60,8 @@ struct ContentView: View {
     @StateObject private var access = CalendarAccess()
 
     private var settingsURL: URL { URL(string: UIApplication.openSettingsURLString)! }
+    /// Texts that name the device have an iPhone and an iPad version.
+    private let isPad = UIDevice.current.userInterfaceIdiom == .pad
 
     var body: some View {
         NavigationStack {
@@ -89,10 +91,12 @@ struct ContentView: View {
                 if access.status == .fullAccess {
                     Section("Your calendars") {
                         if access.accounts.isEmpty {
-                            Label("No calendar accounts found on your iPhone", systemImage: "exclamationmark.triangle")
+                            Label(isPad ? "No calendar accounts found on your iPad" : "No calendar accounts found on your iPhone",
+                                  systemImage: "exclamationmark.triangle")
                                 .foregroundStyle(.orange)
                         } else {
-                            Text("Found on your iPhone: \(access.accounts.formatted(.list(type: .and)))")
+                            let list = access.accounts.formatted(.list(type: .and))
+                            Text(isPad ? "Found on your iPad: \(list)" : "Found on your iPhone: \(list)")
                             if !access.hasUpcomingEvents {
                                 Label("No events in the next two weeks", systemImage: "calendar.badge.exclamationmark")
                                     .foregroundStyle(.orange)
@@ -103,10 +107,14 @@ struct ContentView: View {
 
                 // WeekPeek reads only the iPhone's own calendar database (EventKit), never the network.
                 Section("Using Google Calendar or Outlook?") {
-                    Text("WeekPeek shows only the calendars on your iPhone. Events that live only in the Google Calendar or Outlook app are not included. Add your account to your iPhone to see them:")
+                    Text(isPad
+                         ? "WeekPeek shows only the calendars on your iPad. Events that live only in the Google Calendar or Outlook app are not included. Add your account to your iPad to see them:"
+                         : "WeekPeek shows only the calendars on your iPhone. Events that live only in the Google Calendar or Outlook app are not included. Add your account to your iPhone to see them:")
                     Text("Settings › Apps › Calendar › Calendar Accounts › Add Account")
                         .fontWeight(.semibold)
-                    Text("Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPhone.")
+                    Text(isPad
+                         ? "Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPad."
+                         : "Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPhone.")
                 }
                 .font(.callout)
 
@@ -119,7 +127,9 @@ struct ContentView: View {
                 } header: {
                     Text("Language")
                 } footer: {
-                    Text("WeekPeek follows your iPhone's language. You can choose another language for WeekPeek under Language in Settings. It applies to the app and all widgets.")
+                    Text(isPad
+                         ? "WeekPeek follows your iPad's language. You can choose another language for WeekPeek under Language in Settings. It applies to the app and all widgets."
+                         : "WeekPeek follows your iPhone's language. You can choose another language for WeekPeek under Language in Settings. It applies to the app and all widgets.")
                 }
 
                 Section("How to use the widget") {

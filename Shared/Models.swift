@@ -25,13 +25,15 @@ struct WidgetEvent: Hashable, Identifiable {
 /// Widget size, independent of WidgetKit so the layout logic can be unit tested.
 enum WidgetSize: String, CaseIterable, Hashable {
     case small, medium, large
+    /// iPad only: as wide as two large widgets.
+    case extraLarge
 
     /// Default number of days and columns when "Automatic layout" is on.
     var defaultGrid: (days: Int, columns: Int) {
         switch self {
         case .small: return (2, 2)
         case .medium: return (5, 5)
-        case .large: return (14, 7)
+        case .large, .extraLarge: return (14, 7)
         }
     }
 
@@ -39,7 +41,7 @@ enum WidgetSize: String, CaseIterable, Hashable {
     /// Narrow columns fall back to shorter day headers (`DayLayout.HeaderStyle`).
     var maxDays: Int { 14 }
     var maxColumns: Int { 7 }
-    var padding: CGFloat { self == .large ? 12 : 10 }
+    var padding: CGFloat { self == .large || self == .extraLarge ? 12 : 10 }
 }
 
 struct GridSpec: Hashable {

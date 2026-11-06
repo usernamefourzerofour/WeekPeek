@@ -53,6 +53,7 @@ final class DayLayoutTests: XCTestCase {
         XCTAssertEqual(s.grid(for: .large).columns, 3, "No more columns than days")
         s.dayCount = 10; s.columns = nil
         XCTAssertEqual(s.grid(for: .medium), GridSpec(days: 10, columns: 5), "Auto columns per size")
+        XCTAssertEqual(WeekSettings().grid(for: .extraLarge), GridSpec(days: 14, columns: 7), "iPad extra large")
         XCTAssertEqual(DayCountOption.d14.value, 14)
         XCTAssertNil(ColumnsOption.auto.value)
     }
@@ -201,7 +202,17 @@ final class RenderTests: XCTestCase {
         var configure: (inout WeekSettings) -> Void = { _ in }
         var scheme: ColorScheme = .light
         var accented = false
+        /// Overrides the iPhone size, e.g. for iPad widgets.
+        var frame: CGSize? = nil
     }
+
+    /// iPad Pro 13" widget sizes (points).
+    static let iPad: [WidgetSize: CGSize] = [
+        .small: CGSize(width: 170, height: 170),
+        .medium: CGSize(width: 379, height: 170),
+        .large: CGSize(width: 379, height: 379),
+        .extraLarge: CGSize(width: 795, height: 379),
+    ]
 
     static let sizes: [WidgetSize: CGSize] = [
         .small: CGSize(width: 158, height: 158),
@@ -240,6 +251,15 @@ final class RenderTests: XCTestCase {
             Variant(name: "large-weekstart-week-time", size: .large) {
                 $0.startDay = .monday; $0.showWeekNumber = true; $0.showStartTime = true
             },
+            Variant(name: "ipad-small", size: .small, frame: Self.iPad[.small]),
+            Variant(name: "ipad-medium", size: .medium, frame: Self.iPad[.medium]),
+            Variant(name: "ipad-large", size: .large, frame: Self.iPad[.large]),
+            Variant(name: "ipad-xl", size: .extraLarge, frame: Self.iPad[.extraLarge]),
+            Variant(name: "ipad-xl-dark-week-time", size: .extraLarge,
+                    configure: { $0.startDay = .monday; $0.showWeekNumber = true },
+                    scheme: .dark, frame: Self.iPad[.extraLarge]),
+            Variant(name: "ipad-xl-7days-1row", size: .extraLarge,
+                    configure: { $0.dayCount = 7; $0.columns = 7; $0.fontSize = 13 }, frame: Self.iPad[.extraLarge]),
         ]
         let now = Date()
         for lang in ["en_US", "da_DK"] {
@@ -247,7 +267,7 @@ final class RenderTests: XCTestCase {
                 var s = WeekSettings()
                 v.configure(&s)
                 let model = WeekModel.sample(now: now, settings: s)
-                let frame = Self.sizes[v.size]!
+                let frame = v.frame ?? Self.sizes[v.size]!
                 let bg: Color = v.accented ? Color(red: 0.25, green: 0.30, blue: 0.40) : (v.scheme == .dark ? Color(white: 0.11) : .white)
                 let view = WeekWidgetView(model: model, size: v.size, accentedOverride: v.accented)
                     .frame(width: frame.width, height: frame.height)

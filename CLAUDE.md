@@ -17,12 +17,12 @@ Guidance for Claude working on WeekPeek, an iOS Home Screen calendar widget (Swi
 | --- | --- |
 | `project.yml` | XcodeGen spec. The `.xcodeproj` and both `Info.plist` files are generated from it and are git-ignored. |
 | `App/` | The app: calendar access, "Change language" button (opens the app's Settings page), short guide. |
-| `Widget/WeekWidget.swift` | Widget bundle, sizes (small, medium, large) and timeline provider. |
+| `Widget/WeekWidget.swift` | Widget bundle, sizes (small, medium, large, extra large on iPad) and timeline provider. |
 | `Shared/` | Used by both targets: models, options (`AppEnum`s), layout engine (`DayLayout`, `LineFit`), widget view, intent, event loading, deep links, translations. |
 | `Tests/` | Unit tests plus render tests that write PNG previews. |
 | `tools/make_icon.swift` | Draws the app icon (macOS only). |
 
-Names: the app is **WeekPeek** (App Store: "WeekPeek: Calendar Widget"), but targets, scheme and project are still `KalenderWidget`. Bundle IDs: `dk.erik.kalenderwidget` and `dk.erik.kalenderwidget.widget`. Deployment target iOS 26, iPhone only (iPad support is planned for 1.2: TARGETED_DEVICE_FAMILY "1,2", iPad widget sizes incl. extra large, iPad render tests, 13" screenshots).
+Names: the app is **WeekPeek** (App Store: "WeekPeek: Calendar Widget"), but targets, scheme and project are still `KalenderWidget`. Bundle IDs: `dk.erik.kalenderwidget` and `dk.erik.kalenderwidget.widget`. Deployment target iOS 26. iPhone and iPad from 1.2 (`TARGETED_DEVICE_FAMILY` "1,2" set on each target; 1.0 and 1.1 were iPhone only). On iPad the widget also offers extra large (`WidgetSize.extraLarge`, 14 days in 7 columns by default). App texts that name the device have an iPad twin key ("…your iPad…"), chosen by `isPad` in `ContentView`.
 
 ## How the widget works
 
@@ -92,6 +92,7 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 - Version 1.0, build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, iPhone only) was submitted to App Review on 3 Nov (submission `fd5b017e-a164-4773-b536-d0eb780aba93`), released automatically after approval. On 3 Nov Apple answered "Guideline 2.1 – Information Needed" (screen recording from a device plus purpose, setup, external services, regions, regulation); on 4 Nov Erik added a recording and notes in ASC and resubmitted build 7. Approved and READY_FOR_SALE on 6 Nov. Country availability had never been set (the app showed "not available in your country"); Erik set all 175 countries on 6 Nov ("Processing to Available", up to 24 h). Check with `https://itunes.apple.com/lookup?id=6829527873&country=dk`. Check with `get_review`; reviewer messages are only in App Store Connect.
 - Build 6 declared iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target unless each target sets "1"), so Apple asked for iPad screenshots.
 - Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Also a corrected guide line: only Apple Calendar and Fantastical open on the tapped day; Google Calendar, Outlook and the small widget open on today. Build 8 (`bld_sJxJxlTN4MvSTOQmJRVCM`) was tested by Erik on his iPhone and submitted to App Review on 7 Nov (submission `ca1ef5a3-acdc-4ea9-82ac-605ded9771a7`) with the new description and "What's New". Release is MANUAL (NoMac default for new versions): after approval Erik taps "Release This Version" in ASC unless he switched it to automatic.
+- Version 1.2 (build 9, iPad support) is written but not built. Before submitting it needs iPad 13" App Store screenshots (2064 × 2752 or 2048 × 2732) and a check of the app and widgets in an iPad Simulator.
 - App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
 - Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
 

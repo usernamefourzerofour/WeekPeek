@@ -8,10 +8,10 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.0"
-    MARKETING_VERSION: "1.1"
-    CURRENT_PROJECT_VERSION: "8"
+    MARKETING_VERSION: "1.2"
+    CURRENT_PROJECT_VERSION: "9"
     CODE_SIGN_STYLE: Automatic
-    TARGETED_DEVICE_FAMILY: "1"
+    TARGETED_DEVICE_FAMILY: "1,2"
     LOCALIZATION_PREFERS_STRING_CATALOGS: YES
     SWIFT_EMIT_LOC_STRINGS: YES
 targets:
@@ -41,8 +41,8 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dk.erik.kalenderwidget
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        # XcodeGen's iOS preset sets "1,2" (iPhone + iPad) per target, overriding the project setting.
-        TARGETED_DEVICE_FAMILY: "1"
+        # Set per target: XcodeGen's iOS preset would otherwise decide the device family per target.
+        TARGETED_DEVICE_FAMILY: "1,2"
   KalenderWidgetExtension:
     type: app-extension
     platform: iOS
@@ -61,7 +61,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dk.erik.kalenderwidget.widget
-        TARGETED_DEVICE_FAMILY: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
   KalenderWidgetTests:
     type: bundle.unit-test
     platform: iOS

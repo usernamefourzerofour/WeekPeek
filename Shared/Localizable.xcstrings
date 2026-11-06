@@ -3434,6 +3434,232 @@
         }
       }
     },
+    "Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPad.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اختر Google أو Microsoft Exchange وسجّل الدخول وشغّل التقويمات. تبقى أحداثك على iPad."
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изберете Google или Microsoft Exchange, влезте и включете „Календари“. Вашите събития остават на iPad."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tria Google o Microsoft Exchange, inicia la sessió i activa Calendaris. Els teus esdeveniments es queden a l’iPad."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vyberte Google nebo Microsoft Exchange, přihlaste se a zapněte Kalendáře. Vaše události zůstanou v iPadu."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vælg Google eller Microsoft Exchange, log ind, og slå Kalendere til. Dine begivenheder bliver på din iPad."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle Google oder Microsoft Exchange, melde dich an und aktiviere Kalender. Deine Ereignisse bleiben auf deinem iPad."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Επιλέξτε Google ή Microsoft Exchange, συνδεθείτε και ενεργοποιήστε τα Ημερολόγια. Τα συμβάντα σας μένουν στο iPad."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige Google o Microsoft Exchange, inicia sesión y activa Calendarios. Tus eventos se quedan en tu iPad."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige Google o Microsoft Exchange, inicia sesión y activa Calendarios. Tus eventos se quedan en tu iPad."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse Google tai Microsoft Exchange, kirjaudu sisään ja laita Kalenterit päälle. Tapahtumasi pysyvät iPadissasi."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez Google ou Microsoft Exchange, connectez-vous et activez Calendriers. Vos événements restent sur votre iPad."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחרו ב‑Google או ב‑Microsoft Exchange, התחברו והפעילו את לוחות השנה. האירועים שלכם נשארים ב‑iPad."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google या Microsoft Exchange चुनें, साइन इन करें और कैलेंडर चालू करें। आपके इवेंट आपके iPad पर ही रहते हैं।"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odaberite Google ili Microsoft Exchange, prijavite se i uključite Kalendare. Vaši događaji ostaju na iPadu."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Válaszd a Google-t vagy a Microsoft Exchange-et, jelentkezz be, és kapcsold be a Naptárakat. Az eseményeid az iPaden maradnak."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Google atau Microsoft Exchange, masuk, lalu nyalakan Kalender. Acara Anda tetap di iPad Anda."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli Google o Microsoft Exchange, accedi e attiva Calendari. I tuoi eventi restano su iPad."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GoogleまたはMicrosoft Exchangeを選んでサインインし、「カレンダー」をオンにします。予定はiPadの中にとどまります。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google 또는 Microsoft Exchange를 선택하고 로그인한 다음 캘린더를 켜십시오. 이벤트는 iPad에 그대로 남습니다."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasirinkite „Google“ arba „Microsoft Exchange“, prisijunkite ir įjunkite Kalendorius. Jūsų įvykiai lieka „iPad“."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Google atau Microsoft Exchange, daftar masuk dan aktifkan Kalendar. Acara anda kekal pada iPad anda."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg Google eller Microsoft Exchange, logg på og slå på Kalendere. Hendelsene dine blir værende på iPaden."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies Google of Microsoft Exchange, log in en zet Agenda's aan. Je activiteiten blijven op je iPad."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz Google lub Microsoft Exchange, zaloguj się i włącz Kalendarze. Twoje wydarzenia pozostają na iPadzie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha Google ou Microsoft Exchange, inicie a sessão e ative Calendários. Seus eventos ficam no iPad."
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha Google ou Microsoft Exchange, inicie sessão e ative Calendários. Os seus eventos ficam no iPad."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alege Google sau Microsoft Exchange, autentifică-te și activează Calendare. Evenimentele tale rămân pe iPad."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите Google или Microsoft Exchange, войдите и включите «Календари». Ваши события остаются на iPad."
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vyberte Google alebo Microsoft Exchange, prihláste sa a zapnite Kalendáre. Vaše udalosti zostanú v iPade."
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izberite Google ali Microsoft Exchange, se prijavite in vklopite Koledarje. Vaši dogodki ostanejo v iPadu."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj Google eller Microsoft Exchange, logga in och aktivera Kalendrar. Dina händelser stannar på din iPad."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือก Google หรือ Microsoft Exchange ลงชื่อเข้าใช้ แล้วเปิดปฏิทิน กิจกรรมของคุณจะอยู่บน iPad ของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google’ı veya Microsoft Exchange’i seçin, giriş yapın ve Takvimler’i açın. Etkinlikleriniz iPad’inizde kalır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Виберіть Google або Microsoft Exchange, увійдіть і ввімкніть «Календарі». Ваші події залишаються на iPad."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn Google hoặc Microsoft Exchange, đăng nhập và bật Lịch. Sự kiện của bạn vẫn ở trên iPad."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择 Google 或 Microsoft Exchange，登录并打开“日历”。你的日程会留在 iPad 上。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇 Google 或 Microsoft Exchange，登入並開啟「行事曆」。你的行程會留在 iPad 上。"
+          }
+        }
+      }
+    },
     "Choose Google or Microsoft Exchange, sign in and turn on Calendars. Your events stay on your iPhone.": {
       "localizations": {
         "ar": {
@@ -5244,6 +5470,232 @@
     },
     "Fantastical": {
       "shouldTranslate": false
+    },
+    "Found on your iPad: %@": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم العثور عليها في iPad: %@"
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Намерени на iPad: %@"
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trobats a l’iPad: %@"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nalezeno v iPadu: %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fundet på din iPad: %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auf deinem iPad gefunden: %@"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Βρέθηκαν στο iPad: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas en tu iPad: %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas en tu iPad: %@"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löytyi iPadista: %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trouvés sur votre iPad : %@"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נמצאו ב‑iPad: %@"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपके iPad पर मिले: %@"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronađeno na iPadu: %@"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Az iPaden található: %@"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ditemukan di iPad Anda: %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trovati su iPad: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPadで見つかったアカウント：%@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPad에서 찾은 계정: %@"
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rasta „iPad“: %@"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ditemui pada iPad anda: %@"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Funnet på iPaden din: %@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gevonden op je iPad: %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znalezione na iPadzie: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas no iPad: %@"
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas no iPad: %@"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Găsite pe iPad: %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Найдено на iPad: %@"
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nájdené v iPade: %@"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najdeno v iPadu: %@"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hittades på din iPad: %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พบบน iPad ของคุณ: %@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPad’de bulunanlar: %@"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знайдено на iPad: %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm thấy trên iPad: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 iPad 上找到：%@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 iPad 上找到：%@"
+          }
+        }
+      }
     },
     "Found on your iPhone: %@": {
       "localizations": {
@@ -8182,6 +8634,232 @@
           "stringUnit": {
             "state": "translated",
             "value": "星期一"
+          }
+        }
+      }
+    },
+    "No calendar accounts found on your iPad": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يتم العثور على حسابات تقويم في iPad"
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не са намерени календарни акаунти на iPad"
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No s’ha trobat cap compte de calendari a l’iPad"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V iPadu nebyly nalezeny žádné kalendářové účty"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen kalenderkonti fundet på din iPad"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Kalenderaccounts auf deinem iPad gefunden"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν βρέθηκαν λογαριασμοί ημερολογίου στο iPad"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se han encontrado cuentas de calendario en tu iPad"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontraron cuentas de calendario en tu iPad"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPadista ei löytynyt kalenteritilejä"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun compte de calendrier trouvé sur votre iPad"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לא נמצאו חשבונות לוח שנה ב‑iPad"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपके iPad पर कोई कैलेंडर अकाउंट नहीं मिला"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na iPadu nisu pronađeni kalendarski računi"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nem található naptárfiók az iPaden"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada akun kalender di iPad Anda"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun account calendario trovato su iPad"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPadにカレンダーアカウントが見つかりません"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPad에서 캘린더 계정을 찾을 수 없음"
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„iPad“ nerasta kalendoriaus paskyrų"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiada akaun kalendar ditemui pada iPad anda"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fant ingen kalenderkontoer på iPaden din"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen agenda-accounts gevonden op je iPad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono kont kalendarza na iPadzie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma conta de calendário encontrada no iPad"
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foram encontradas contas de calendário no iPad"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nu s-au găsit conturi de calendar pe iPad"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На iPad не найдено учетных записей календаря"
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V iPade sa nenašli žiadne kalendárové účty"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V iPadu ni bilo najdenih koledarskih računov"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inga kalenderkonton hittades på din iPad"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่พบบัญชีปฏิทินบน iPad ของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPad’de takvim hesabı bulunamadı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На iPad не знайдено облікових записів календаря"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tìm thấy tài khoản lịch nào trên iPad"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 iPad 上未找到日历账户"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 iPad 上找不到行事曆帳號"
           }
         }
       }
@@ -15195,6 +15873,232 @@
     "WeekPeek": {
       "shouldTranslate": false
     },
+    "WeekPeek follows your iPad's language. You can choose another language for WeekPeek under Language in Settings. It applies to the app and all widgets.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يتبع WeekPeek لغة iPad. يمكنك اختيار لغة أخرى لـ WeekPeek من اللغة في الإعدادات. تنطبق على التطبيق وجميع الأدوات."
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek следва езика на вашия iPad. Можете да изберете друг език за WeekPeek в раздел Език в Настройки. Той важи за приложението и всички уиджети."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek segueix l’idioma del teu iPad. Pots triar un altre idioma per a WeekPeek a Idioma, dins de Configuració. S’aplica a l’app i a tots els widgets."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek používá jazyk vašeho iPadu. Jiný jazyk pro WeekPeek můžete vybrat v Nastavení v části Jazyk. Platí pro aplikaci i všechny widgety."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek følger din iPads sprog. Du kan vælge et andet sprog til WeekPeek under Sprog i Indstillinger. Det gælder både appen og alle widgets."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek folgt der Sprache deines iPad. Unter „Sprache“ in den Einstellungen kannst du eine andere Sprache für WeekPeek wählen. Sie gilt für die App und alle Widgets."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το WeekPeek ακολουθεί τη γλώσσα του iPad σας. Μπορείτε να επιλέξετε άλλη γλώσσα για το WeekPeek στην ενότητα Γλώσσα στις Ρυθμίσεις. Ισχύει για την εφαρμογή και όλα τα widget."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek usa el idioma de tu iPad. Puedes elegir otro idioma para WeekPeek en Idioma, dentro de Ajustes. Se aplica a la app y a todos los widgets."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek usa el idioma de tu iPad. Puedes elegir otro idioma para WeekPeek en Idioma, dentro de Configuración. Se aplica a la app y a todos los widgets."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek käyttää iPadisi kieltä. Voit valita WeekPeekille toisen kielen Asetusten kohdasta Kieli. Se koskee appia ja kaikkia widgetejä."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek suit la langue de votre iPad. Vous pouvez choisir une autre langue pour WeekPeek sous Langue dans Réglages. Elle s’applique à l’app et à tous les widgets."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek משתמש בשפת ה‑iPad. אפשר לבחור שפה אחרת ל‑WeekPeek תחת ׳שפה׳ בהגדרות. היא חלה על היישום ועל כל הווידג׳טים."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek आपके iPad की भाषा का उपयोग करता है। आप सेटिंग्ज़ में भाषा के अंतर्गत WeekPeek के लिए दूसरी भाषा चुन सकते हैं। यह ऐप और सभी विजेट पर लागू होती है।"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek prati jezik vašeg iPada. Drugi jezik za WeekPeek možete odabrati pod Jezik u Postavkama. Vrijedi za aplikaciju i sve widgete."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A WeekPeek az iPad nyelvét követi. A Beállítások Nyelv menüjében másik nyelvet is választhatsz a WeekPeekhez. Ez az appra és az összes widgetre vonatkozik."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek mengikuti bahasa iPad Anda. Anda dapat memilih bahasa lain untuk WeekPeek di Bahasa dalam Pengaturan. Bahasa ini berlaku untuk app dan semua widget."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek segue la lingua del tuo iPad. Puoi scegliere un’altra lingua per WeekPeek in Lingua nelle Impostazioni. Vale per l’app e per tutti i widget."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeekはiPadの言語に従います。設定の「言語」でWeekPeek用に別の言語を選べます。Appとすべてのウィジェットに適用されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek은 iPad의 언어를 따릅니다. 설정의 언어에서 WeekPeek에 다른 언어를 선택할 수 있습니다. 앱과 모든 위젯에 적용됩니다."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek naudoja jūsų iPad kalbą. Kitą WeekPeek kalbą galite pasirinkti Nustatymų skiltyje Kalba. Ji taikoma programai ir visiems valdikliams."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek mengikut bahasa iPad anda. Anda boleh memilih bahasa lain untuk WeekPeek di bawah Bahasa dalam Seting. Ia digunakan untuk app dan semua widget."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek følger språket på iPaden din. Du kan velge et annet språk for WeekPeek under Språk i Innstillinger. Det gjelder appen og alle widgeter."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek volgt de taal van je iPad. Je kunt een andere taal voor WeekPeek kiezen onder Taal in Instellingen. Die geldt voor de app en alle widgets."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek używa języka Twojego iPada. W Ustawieniach, w sekcji Język, możesz wybrać inny język dla WeekPeek. Dotyczy on aplikacji i wszystkich widżetów."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek segue o idioma do seu iPad. Você pode escolher outro idioma para o WeekPeek em Idioma nos Ajustes. Ele vale para o app e todos os widgets."
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek segue o idioma do seu iPad. Pode escolher outro idioma para o WeekPeek em Idioma, nas Definições. Aplica‑se à app e a todos os widgets."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek folosește limba iPad-ului tău. Poți alege altă limbă pentru WeekPeek la Limbă, în Configurări. Se aplică app-ului și tuturor widgeturilor."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek использует язык iPad. Другой язык для WeekPeek можно выбрать в разделе «Язык» в Настройках. Он действует для приложения и всех виджетов."
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek používa jazyk vášho iPadu. Iný jazyk pre WeekPeek môžete vybrať v Nastaveniach v časti Jazyk. Platí pre aplikáciu aj všetky widgety."
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek uporablja jezik vašega iPada. Drug jezik za WeekPeek lahko izberete pod Jezik v Nastavitvah. Velja za aplikacijo in vse pripomočke."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek följer språket på din iPad. Du kan välja ett annat språk för WeekPeek under Språk i Inställningar. Det gäller appen och alla widgetar."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek ใช้ภาษาของ iPad คุณสามารถเลือกภาษาอื่นให้ WeekPeek ได้ที่ ภาษา ในการตั้งค่า โดยใช้กับแอปและวิดเจ็ตทั้งหมด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek iPad’inizin dilini kullanır. Ayarlar’daki Dil bölümünden WeekPeek için başka bir dil seçebilirsiniz. Bu, uygulama ve tüm widget’lar için geçerlidir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek використовує мову iPad. Іншу мову для WeekPeek можна вибрати в розділі «Мова» в Параметрах. Вона діє для програми й усіх віджетів."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek dùng ngôn ngữ của iPad. Bạn có thể chọn ngôn ngữ khác cho WeekPeek trong mục Ngôn ngữ ở Cài đặt. Ngôn ngữ này áp dụng cho ứng dụng và mọi tiện ích."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 跟随 iPad 的语言。你可以在“设置”的“语言”中为 WeekPeek 选择其他语言。该语言适用于 App 和所有小组件。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 會跟隨 iPad 的語言。你可以在「設定」的「語言」中為 WeekPeek 選擇其他語言。此語言適用於 App 和所有小工具。"
+          }
+        }
+      }
+    },
     "WeekPeek follows your iPhone's language. You can choose another language for WeekPeek under Language in Settings. It applies to the app and all widgets.": {
       "localizations": {
         "ar": {
@@ -15417,6 +16321,232 @@
           "stringUnit": {
             "state": "translated",
             "value": "WeekPeek 會跟隨 iPhone 的語言。你可以在「設定」的「語言」中為 WeekPeek 選擇其他語言。此語言適用於 App 和所有小工具。"
+          }
+        }
+      }
+    },
+    "WeekPeek shows only the calendars on your iPad. Events that live only in the Google Calendar or Outlook app are not included. Add your account to your iPad to see them:": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يعرض WeekPeek التقويمات الموجودة على iPad فقط. لا تظهر الأحداث الموجودة فقط في تطبيق تقويم Google أو Outlook. أضف حسابك إلى iPad لرؤيتها:"
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показва само календарите на iPad. Събития, които са само в приложението Google Календар или Outlook, не се показват. За да ги видите, добавете акаунта си в iPad:"
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek només mostra els calendaris de l’iPad. Els esdeveniments que només són a l’app Google Calendar o Outlook no s’hi inclouen. Afegeix el teu compte a l’iPad per veure’ls:"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zobrazuje jen kalendáře v iPadu. Události, které jsou jen v aplikaci Kalendář Google nebo Outlook, se nezobrazí. Abyste je viděli, přidejte svůj účet do iPadu:"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek viser kun kalenderne på din iPad. Begivenheder, der kun findes i Google Kalender- eller Outlook-appen, kommer ikke med. Tilføj din konto til din iPad for at se dem:"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zeigt nur die Kalender auf deinem iPad. Ereignisse, die nur in der Google Kalender- oder Outlook-App gespeichert sind, werden nicht angezeigt. Füge deinen Account zu deinem iPad hinzu, um sie zu sehen:"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το WeekPeek εμφανίζει μόνο τα ημερολόγια του iPad. Τα συμβάντα που υπάρχουν μόνο στην εφαρμογή Google Calendar ή Outlook δεν περιλαμβάνονται. Προσθέστε τον λογαριασμό σας στο iPad για να τα δείτε:"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek solo muestra los calendarios de tu iPad. Los eventos que solo están en la app Google Calendar u Outlook no se incluyen. Añade tu cuenta al iPad para verlos:"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek solo muestra los calendarios de tu iPad. Los eventos que solo están en la app Google Calendar u Outlook no se incluyen. Agrega tu cuenta al iPad para verlos:"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek näyttää vain iPadisi kalenterit. Tapahtumia, jotka ovat vain Google-kalenteri- tai Outlook-apissa, ei näytetä. Lisää tilisi iPadiin nähdäksesi ne:"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek n’affiche que les calendriers de votre iPad. Les événements qui se trouvent uniquement dans l’app Google Agenda ou Outlook ne sont pas inclus. Ajoutez votre compte à votre iPad pour les voir :"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek מציג רק את לוחות השנה שב‑iPad. אירועים שנמצאים רק ביישום Google Calendar או Outlook לא מוצגים. כדי לראות אותם, הוסיפו את החשבון שלכם ל‑iPad:"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek सिर्फ़ आपके iPad के कैलेंडर दिखाता है। जो इवेंट सिर्फ़ Google कैलेंडर या Outlook ऐप में हैं, वे शामिल नहीं होते। उन्हें देखने के लिए अपना अकाउंट iPad में जोड़ें:"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek prikazuje samo kalendare na iPadu. Događaji koji postoje samo u aplikaciji Google kalendar ili Outlook nisu uključeni. Dodajte svoj račun na iPad da biste ih vidjeli:"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A WeekPeek csak az iPaden lévő naptárakat jeleníti meg. A csak a Google Naptár vagy az Outlook appban lévő események nem jelennek meg. A megjelenítésükhöz add hozzá a fiókodat az iPadhez:"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek hanya menampilkan kalender di iPad Anda. Acara yang hanya ada di app Google Kalender atau Outlook tidak ditampilkan. Tambahkan akun Anda ke iPad untuk melihatnya:"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek mostra solo i calendari presenti su iPad. Gli eventi che si trovano solo nell’app Google Calendar o Outlook non sono inclusi. Aggiungi il tuo account a iPad per vederli:"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeekはiPad上のカレンダーだけを表示します。GoogleカレンダーやOutlookのアプリにだけある予定は表示されません。表示するには、アカウントをiPadに追加してください："
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek은 iPad에 있는 캘린더만 표시합니다. Google 캘린더나 Outlook 앱에만 있는 이벤트는 표시되지 않습니다. 보려면 계정을 iPad에 추가하십시오:"
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„WeekPeek“ rodo tik „iPad“ esančius kalendorius. Įvykiai, kurie yra tik „Google“ kalendoriaus ar „Outlook“ programoje, nerodomi. Kad juos matytumėte, pridėkite savo paskyrą prie „iPad“:"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek hanya menunjukkan kalendar pada iPad anda. Acara yang hanya ada dalam app Kalendar Google atau Outlook tidak dimasukkan. Tambahkan akaun anda pada iPad untuk melihatnya:"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek viser bare kalenderne på iPaden din. Hendelser som bare finnes i Google Kalender- eller Outlook-appen, blir ikke tatt med. Legg til kontoen din på iPaden for å se dem:"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek toont alleen de agenda's op je iPad. Activiteiten die alleen in de Google Agenda- of Outlook-app staan, worden niet getoond. Voeg je account toe aan je iPad om ze te zien:"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek pokazuje tylko kalendarze na iPadzie. Wydarzenia, które są tylko w aplikacji Kalendarz Google lub Outlook, nie są uwzględniane. Dodaj swoje konto do iPada, aby je zobaczyć:"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek mostra apenas os calendários do iPad. Eventos que estão só no app Google Agenda ou Outlook não aparecem. Adicione sua conta ao iPad para vê-los:"
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O WeekPeek mostra apenas os calendários do iPad. Os eventos que estão só na app Google Calendar ou Outlook não são incluídos. Adicione a sua conta ao iPad para os ver:"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek afișează doar calendarele de pe iPad. Evenimentele care există doar în aplicația Google Calendar sau Outlook nu sunt incluse. Adaugă-ți contul pe iPad ca să le vezi:"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показывает только календари на iPad. События, которые есть только в приложении Google Календарь или Outlook, не отображаются. Чтобы их увидеть, добавьте свою учетную запись на iPad:"
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek zobrazuje len kalendáre v iPade. Udalosti, ktoré sú len v aplikácii Kalendár Google alebo Outlook, sa nezobrazia. Ak ich chcete vidieť, pridajte svoj účet do iPadu:"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek prikazuje samo koledarje v iPadu. Dogodki, ki so samo v aplikaciji Google Koledar ali Outlook, niso vključeni. Če jih želite videti, dodajte svoj račun v iPad:"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek visar bara kalendrarna på din iPad. Händelser som bara finns i appen Google Kalender eller Outlook visas inte. Lägg till ditt konto på din iPad för att se dem:"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek แสดงเฉพาะปฏิทินที่อยู่บน iPad ของคุณ กิจกรรมที่อยู่เฉพาะในแอป Google ปฏิทินหรือ Outlook จะไม่แสดง เพิ่มบัญชีของคุณลงใน iPad เพื่อดูกิจกรรมเหล่านั้น:"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek yalnızca iPad’inizdeki takvimleri gösterir. Yalnızca Google Takvim veya Outlook uygulamasında bulunan etkinlikler gösterilmez. Bunları görmek için hesabınızı iPad’e ekleyin:"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek показує лише календарі на iPad. Події, які є лише в програмі Google Календар чи Outlook, не відображаються. Щоб їх побачити, додайте свій обліковий запис на iPad:"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek chỉ hiển thị các lịch trên iPad của bạn. Các sự kiện chỉ có trong ứng dụng Google Lịch hoặc Outlook sẽ không được hiển thị. Hãy thêm tài khoản của bạn vào iPad để xem chúng:"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 只显示 iPad 上的日历。仅存在于 Google 日历或 Outlook App 中的日程不会显示。要看到它们，请将你的账户添加到 iPad："
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WeekPeek 只會顯示 iPad 上的行事曆。只存在於 Google 日曆或 Outlook App 中的行程不會顯示。若要看到它們，請將你的帳號加入 iPad："
           }
         }
       }

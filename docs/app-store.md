@@ -36,7 +36,7 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 > EVERY WIDGET IS YOURS TO SHAPE
 > Each widget has its own settings under Edit Widget, so you can have a two-day close-up next to a two-week overview.
 >
-> • Small, medium and large widgets, also in StandBy
+> • Small, medium and large widgets, also in StandBy, plus extra large on iPad
 > • 1 to 14 days, in 1 to 7 columns
 > • Start on today or on a fixed weekday
 > • Lines per event: Auto fits as much as possible and shows "+N more" when a day is full
