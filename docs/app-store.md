@@ -88,3 +88,8 @@ Ready in `docs/appstore/` (6.9" iPhone, 1320 × 2868, sample events only). Headl
 5. `5-private.png`: Private by design (small widget beside app icons, dark widget)
 
 `Tests/SampleCalendarSeeder.swift` seeds the Simulator's calendar with the same sample events, for real Home Screen screenshots.
+
+### iPad (from 1.2)
+
+`docs/appstore/ipad-1-week.png` … `ipad-4-languages.png` (13" iPad, 2064 × 2752), same style, built from the iPad render variants (`ipad-*` in `renders/r3`): extra large, large, medium and small widgets.
+

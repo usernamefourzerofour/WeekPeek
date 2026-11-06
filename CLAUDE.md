@@ -73,7 +73,7 @@ xcodebuild test -project KalenderWidget.xcodeproj -scheme KalenderWidget \
 
 ## Releasing to TestFlight
 
-1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 8 is the latest uploaded; next is 9). Info.plists read the version from there.
+1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 9 is the latest uploaded; next is 10). Info.plists read the version from there.
 2. Archive and export with the signing files NoMac installs on every Mac:
 
 ```sh
@@ -92,7 +92,7 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 - Version 1.0, build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, iPhone only) was submitted to App Review on 3 Nov (submission `fd5b017e-a164-4773-b536-d0eb780aba93`), released automatically after approval. On 3 Nov Apple answered "Guideline 2.1 – Information Needed" (screen recording from a device plus purpose, setup, external services, regions, regulation); on 4 Nov Erik added a recording and notes in ASC and resubmitted build 7. Approved and READY_FOR_SALE on 6 Nov. Country availability had never been set (the app showed "not available in your country"); Erik set all 175 countries on 6 Nov ("Processing to Available", up to 24 h). Check with `https://itunes.apple.com/lookup?id=6829527873&country=dk`. Check with `get_review`; reviewer messages are only in App Store Connect.
 - Build 6 declared iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target unless each target sets "1"), so Apple asked for iPad screenshots.
 - Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Also a corrected guide line: only Apple Calendar and Fantastical open on the tapped day; Google Calendar, Outlook and the small widget open on today. Build 8 (`bld_sJxJxlTN4MvSTOQmJRVCM`) was tested by Erik on his iPhone and submitted to App Review on 7 Nov (submission `ca1ef5a3-acdc-4ea9-82ac-605ded9771a7`) with the new description and "What's New". Release is MANUAL (NoMac default for new versions): after approval Erik taps "Release This Version" in ASC unless he switched it to automatic.
-- Version 1.2 (build 9, iPad support) is written but not built. Before submitting it needs iPad 13" App Store screenshots (2064 × 2752 or 2048 × 2732) and a check of the app and widgets in an iPad Simulator.
+- Version 1.2 (build 9, `bld_PccTsLz1MSuiJPZuvvVkt`, iPhone and iPad) was sent to TestFlight on 6 Nov after all tests passed and a check in the iPad Pro 13" Simulator (portrait and landscape). iPad App Store screenshots are in `docs/appstore/ipad-*.png` (2064 × 2752; upload as display type APP_IPAD_PRO_3GEN_129). Submit only after 1.1 is approved and released.
 - App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
 - Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
 
