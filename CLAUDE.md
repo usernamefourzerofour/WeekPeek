@@ -31,6 +31,7 @@ Names: the app is **WeekPeek** (App Store: "WeekPeek: Calendar Widget"), but tar
 - `LineFit` decides lines per event: Auto allows up to 3, shrinks the longest titles first, then shows "+N more". Text is measured with UIKit (`boundingRect`) plus a safety margin, because SwiftUI lays out slightly wider. A word that cannot fit is truncated on one line rather than wrapped mid-word.
 - Tapping a day opens the app through `kalenderwidget://open?app=…&date=…`; `Router` forwards to the chosen calendar app. Only Apple Calendar and Fantastical support a date; Google Calendar and Outlook (`ms-outlook://events`, undocumented; plain `ms-outlook://` only opens the last tab) open on today.
 - A widget cannot check which apps are installed, so the app list is static.
+- Events come only from the iPhone's calendar database (EventKit): accounts added under Settings › Apps › Calendar › Calendar Accounts. Events that live only in the Google Calendar or Outlook app are invisible. Erik decided to keep it that way (no network, no data collection); the app lists the accounts it finds and explains how to add one, with a warning when there are none or no events in the next two weeks.
 
 ## Localisation
 
@@ -72,7 +73,7 @@ xcodebuild test -project KalenderWidget.xcodeproj -scheme KalenderWidget \
 
 ## Releasing to TestFlight
 
-1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 6 is the latest uploaded; next is 7). Info.plists read the version from there.
+1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 7 is the latest uploaded; next is 8). Info.plists read the version from there.
 2. Archive and export with the signing files NoMac installs on every Mac:
 
 ```sh
@@ -85,6 +86,19 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 
 3. `send_to_testflight` with the absolute path `/Users/agent/drive/src/KalenderWidget/build/export/KalenderWidget.ipa` and short "What to Test" notes in English. Stop the Mac once Apple has the build; processing needs no Mac. NoMac project id: `prj_IRXZqUSLAVZvkO1M4C7DI`.
 4. Apple rejects builds without all four interface orientations (`ITMS-90474`); they are set in `project.yml`. Encryption export compliance is answered in `Info.plist` (`ITSAppUsesNonExemptEncryption: false`). The app collects no data (`Shared/PrivacyInfo.xcprivacy`).
+
+## App Store status (3 Nov 2026)
+
+- Version 1.0, build 7 (`bld_ZW2u522DvkD2K9IsJ1Kfd`, iPhone only) was submitted to App Review on 3 Nov (submission `fd5b017e-a164-4773-b536-d0eb780aba93`), released automatically after approval. On 3 Nov Apple answered "Guideline 2.1 – Information Needed" (screen recording from a device plus purpose, setup, external services, regions, regulation); on 4 Nov Erik added a recording and notes in ASC and resubmitted build 7. Approved and READY_FOR_SALE on 6 Nov. Country availability had never been set (the app showed "not available in your country"); Erik set all 175 countries on 6 Nov ("Processing to Available", up to 24 h). Check with `https://itunes.apple.com/lookup?id=6829527873&country=dk`. Check with `get_review`; reviewer messages are only in App Store Connect.
+- Build 6 declared iPad support (XcodeGen sets `TARGETED_DEVICE_FAMILY` "1,2" per target unless each target sets "1"), so Apple asked for iPad screenshots.
+- Next: version 1.1, build 8 (`MARKETING_VERSION` 1.1 in `project.yml`): the "Your calendars" and "Using Google Calendar or Outlook?" help in the app. Also a corrected guide line: only Apple Calendar and Fantastical open on the tapped day; Google Calendar, Outlook and the small widget open on today. Not built yet. For 1.1, also put the "WORKS WITH THE CALENDARS ON YOUR IPHONE" paragraph from `docs/app-store.md` into the App Store description and add short "What's New" notes.
+- App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
+- Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
+
+NoMac lessons:
+- `upload_screenshots` only accepts `create_mac_link` download links (or base64); GitHub links are refused. A 1-minute Mac that curls the PNGs from GitHub is enough; the links outlive the Mac.
+- The age rating needs `socialMedia` besides the usual keys.
+- `review_contact.demo_account_required: false` did not clear "Sign-in required" in ASC; check it by hand.
 
 ## Commits
 
