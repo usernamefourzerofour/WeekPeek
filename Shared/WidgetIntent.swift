@@ -48,7 +48,7 @@ struct WeekWidgetIntent: WidgetConfigurationIntent {
     @Parameter(title: "Lines per event", default: .auto)
     var lines: LinesOption
 
-    @Parameter(title: "Text size (pt)", default: 11, inclusiveRange: (8, 20))
+    @Parameter(title: "Text size (pt)", default: 11, inclusiveRange: (6, 20))
     var fontSize: Int
 
     @Parameter(title: "Show start time", default: true)

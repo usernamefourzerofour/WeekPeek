@@ -71,7 +71,7 @@ struct WeekSettings: Hashable {
     /// nil or empty = all calendars (new calendars are included automatically).
     var calendarIDs: Set<String>? = nil
 
-    static let fontRange = 8...20
+    static let fontRange = 6...20
 
     var clampedFontSize: CGFloat { CGFloat(min(Self.fontRange.upperBound, max(Self.fontRange.lowerBound, fontSize))) }
 

@@ -247,6 +247,8 @@ final class RenderTests: XCTestCase {
             },
             Variant(name: "medium-font14-lines1", size: .medium) { $0.fontSize = 14; $0.lines = .one },
             Variant(name: "medium-font8-alldaytop", size: .medium) { $0.fontSize = 8; $0.allDayMode = .top },
+            Variant(name: "medium-font6", size: .medium) { $0.fontSize = 6 },
+            Variant(name: "small-5cols-font6", size: .small, configure: { $0.dayCount = 5; $0.columns = 5; $0.fontSize = 6 }, scheme: .dark),
             Variant(name: "large", size: .large),
             Variant(name: "large-weekstart-week-time", size: .large) {
                 $0.startDay = .monday; $0.showWeekNumber = true; $0.showStartTime = true

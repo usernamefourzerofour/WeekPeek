@@ -14,7 +14,7 @@ A week-at-a-glance calendar widget for iPhone and iPad. WeekPeek shows your upco
 - Choose the number of days (1–14) and columns (1–7); extra days wrap into more rows
 - Start on today or on a fixed weekday
 - Lines per event (Auto, 1, 2 or 3): Auto shrinks the longest titles first and shows "+N more" when a day is full
-- Text size from 8 to 20 pt
+- Text size from 6 to 20 pt
 - Optional start times and week numbers ("Week 45" above each week)
 - Calendar colors, a color stripe or a single color
 - Days off (weekend or chosen weekdays) shown with a soft background

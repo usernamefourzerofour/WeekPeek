@@ -40,7 +40,7 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 > • 1 to 14 days, in 1 to 7 columns
 > • Start on today or on a fixed weekday
 > • Lines per event: Auto fits as much as possible and shows "+N more" when a day is full
-> • Text size from 8 to 20 pt
+> • Text size from 6 to 20 pt
 > • Optional start times and week numbers
 > • Calendar colors, a color stripe or a single color
 > • Days off shown with a soft background
