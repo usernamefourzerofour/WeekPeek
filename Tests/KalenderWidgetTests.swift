@@ -54,6 +54,9 @@ final class DayLayoutTests: XCTestCase {
         s.dayCount = 10; s.columns = nil
         XCTAssertEqual(s.grid(for: .medium), GridSpec(days: 10, columns: 5), "Auto columns per size")
         XCTAssertEqual(WeekSettings().grid(for: .extraLarge), GridSpec(days: 14, columns: 7), "iPad extra large")
+        var f = WeekSettings()
+        f.fontSize = 3; XCTAssertEqual(f.clampedFontSize, 6, "Text size below the range is drawn at 6 pt")
+        f.fontSize = 30; XCTAssertEqual(f.clampedFontSize, 20)
         XCTAssertEqual(DayCountOption.d14.value, 14)
         XCTAssertNil(ColumnsOption.auto.value)
     }
