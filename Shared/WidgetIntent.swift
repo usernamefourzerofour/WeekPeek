@@ -48,9 +48,10 @@ struct WeekWidgetIntent: WidgetConfigurationIntent {
     @Parameter(title: "Lines per event", default: .auto)
     var lines: LinesOption
 
-    // No inclusiveRange: iOS lets people enter values outside it anyway and then
-    // rejects the whole configuration (redacted placeholder). WeekSettings clamps to 6–20.
-    @Parameter(title: "Text size (pt)", default: 11)
+    // A stepper (– and +) instead of a number field: with a field, iOS let people type a value
+    // outside the range and then rejected the whole configuration (redacted placeholder).
+    // WeekSettings.clampedFontSize still clamps to 6–20 as a safety net.
+    @Parameter(title: "Text size (pt)", default: 11, controlStyle: .stepper, inclusiveRange: (6, 20))
     var fontSize: Int
 
     @Parameter(title: "Show start time", default: true)
