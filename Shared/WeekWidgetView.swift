@@ -65,7 +65,7 @@ struct WeekWidgetView: View {
                         }
                     }
                     if labels[r] {
-                        weekLabel(row, font: font).frame(height: labelH)
+                        weekLabel(row, font: font).frame(height: labelH, alignment: .top)
                     }
                     HStack(alignment: .top, spacing: 0) {
                         ForEach(0..<spec.columns, id: \.self) { c in

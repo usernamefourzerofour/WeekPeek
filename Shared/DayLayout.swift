@@ -182,7 +182,8 @@ enum LineFit {
     }
 
     /// Height of the "Week 45" line above each row, including a little space below it.
-    static func weekLabelHeight(font: CGFloat) -> CGFloat { ceil(font * 0.85 * 1.25) + 3 }
+    /// The label sits at the top; the rest is space between it and the day headers (about 5 pt at 11 pt text).
+    static func weekLabelHeight(font: CGFloat) -> CGFloat { ceil(font * 0.85 * 1.25) + max(4, (font * 0.45).rounded()) }
 
     struct Plan: Equatable {
         var lines: [Int]   // per shown event
