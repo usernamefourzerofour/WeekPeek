@@ -28,10 +28,10 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 
 ## Description (4000 characters)
 
-> WeekPeek shows your upcoming events in a clean, compact grid on your Home Screen. Tap the widget to open your calendar app (Apple Calendar and Fantastical open on the day you tap).
+> WeekPeek shows your upcoming events in a clean, compact grid on your iPhone or iPad Home Screen. Tap the widget to open your calendar app (Apple Calendar and Fantastical open on the day you tap).
 >
-> WORKS WITH THE CALENDARS ON YOUR IPHONE
-> WeekPeek shows the calendars in your iPhone's Calendar: iCloud, Google, Microsoft Exchange and more. Using Google Calendar or Outlook? Add your account in Settings › Apps › Calendar › Calendar Accounts. Events that live only inside the Google Calendar or Outlook app can't be shown.
+> WORKS WITH THE CALENDARS ON YOUR DEVICE
+> WeekPeek shows the calendars in your Calendar app: iCloud, Google, Microsoft Exchange and more. Using Google Calendar or Outlook? Add your account in Settings › Apps › Calendar › Calendar Accounts. Events that live only inside the Google Calendar or Outlook app can't be shown.
 >
 > EVERY WIDGET IS YOURS TO SHAPE
 > Each widget has its own settings under Edit Widget, so you can have a two-day close-up next to a two-week overview.
@@ -50,7 +50,7 @@ Avoid other companies' app names (Outlook, Google, Fantastical) in keywords; App
 > • 38 languages, including right-to-left
 >
 > PRIVATE BY DESIGN
-> WeekPeek collects no data. It has no network code, no analytics and no tracking. Your events are read on your iPhone and never leave it.
+> WeekPeek collects no data. It has no network code, no analytics and no tracking. Your events are read on your device and never leave it.
 >
 > AN HONEST NOTE
 > WeekPeek is a free hobby project, "vibe coded" with the help of AI (Claude by Anthropic) and maintained in spare time. It is not made to earn money: no ads, no in-app purchases, no subscriptions.
