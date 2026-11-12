@@ -67,7 +67,7 @@ struct WeekSettings: Hashable {
     var hideFinished = false
     var hideDeclined = false
     var showEmptyDays = true
-    var app: CalendarApp = .google
+    var app: CalendarApp = .apple
     /// nil or empty = all calendars (new calendars are included automatically).
     var calendarIDs: Set<String>? = nil
 

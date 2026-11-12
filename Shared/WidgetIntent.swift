@@ -87,7 +87,8 @@ struct WeekWidgetIntent: WidgetConfigurationIntent {
     @Parameter(title: "Calendars")
     var calendars: [CalendarEntity]?
 
-    @Parameter(title: "Open in", default: .google)
+    // Apple Calendar is always installed; the others may not be.
+    @Parameter(title: "Open in", default: .apple)
     var app: CalendarApp
 
     static var parameterSummary: some ParameterSummary {

@@ -27,6 +27,14 @@ final class Router: ObservableObject {
 
     func open(_ app: CalendarApp, date: Date?) {
         failedApp = nil
+        // The chosen app is not installed (its scheme is in LSApplicationQueriesSchemes):
+        // open Apple Calendar on the same day instead and explain when the user comes back.
+        if app != .apple, !UIApplication.shared.canOpenURL(app.rootURL) {
+            failedApp = app
+            message = String(localized: "\(app.displayName) is not installed, so Apple Calendar opened instead. Choose another app under Edit Widget › Open in.")
+            UIApplication.shared.open(CalendarApp.apple.targetURL(for: date))
+            return
+        }
         message = String(localized: "Opening \(app.displayName)…")
         UIApplication.shared.open(app.targetURL(for: date)) { [weak self] ok in
             guard let self else { return }

@@ -228,6 +228,232 @@
         }
       }
     },
+    "%@ is not installed, so Apple Calendar opened instead. Choose another app under Edit Widget › Open in.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "‏%@ غير مثبّت، لذلك فُتح تقويم Apple بدلًا منه. اختر تطبيقًا آخر من تعديل الأداة › فتح في."
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не е инсталиран, затова вместо него се отвори Календар на Apple. Изберете друго приложение от Редактиране на уиджета › Отваряне в."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ no està instal·lat, així que s’ha obert el Calendari d’Apple. Tria una altra app a Editar el widget › Obrir a."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ není nainstalován, proto se místo něj otevřel Kalendář Apple. Jinou aplikaci vyberete v Upravit widget › Otevřít v."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ er ikke installeret, så Apple Kalender blev åbnet i stedet. Vælg en anden app under Rediger widget › Åbn i."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ist nicht installiert, daher wurde stattdessen Apple Kalender geöffnet. Wähle eine andere App unter Widget bearbeiten › Öffnen in."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το %@ δεν είναι εγκατεστημένο, οπότε άνοιξε το Ημερολόγιο Apple. Επιλέξτε άλλη εφαρμογή στην Επεξεργασία widget › Άνοιγμα σε."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ no está instalada, así que se ha abierto Calendario de Apple. Elige otra app en Editar widget › Abrir en."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ no está instalada, así que se abrió Calendario de Apple. Elige otra app en Editar widget › Abrir en."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ei ole asennettu, joten Applen Kalenteri avattiin sen sijaan. Valitse toinen appi kohdasta Muokkaa widgetiä › Avaa:."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ n’est pas installé, Calendrier Apple s’est donc ouvert à la place. Choisissez une autre app dans Modifier le widget › Ouvrir dans."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ לא מותקן, ולכן נפתח לוח השנה של Apple במקום. בחרו יישום אחר ב־עריכת ווידג׳ט › פתח ב-."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ इंस्टॉल नहीं है, इसलिए उसकी जगह Apple कैलेंडर खुला। विजेट संपादित करें › इसमें खोलें में कोई दूसरा ऐप चुनें।"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ nije instaliran, pa se umjesto njega otvorio Apple kalendar. Drugu aplikaciju odaberite u Uredi widget › Otvori u."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A(z) %@ nincs telepítve, ezért helyette az Apple Naptár nyílt meg. Másik appot a Widget szerkesztése › Megnyitás itt: menüben választhatsz."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tidak terpasang, jadi Kalender Apple dibuka sebagai gantinya. Pilih app lain di Edit Widget › Buka di."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ non è installata, quindi si è aperto Calendario di Apple. Scegli un’altra app in Modifica widget › Apri in."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@がインストールされていないため、代わりにApple カレンダーを開きました。ウィジェットを編集 › 開くAppで別のAppを選べます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@이(가) 설치되어 있지 않아 대신 Apple 캘린더를 열었습니다. 위젯 편집 › 열 앱에서 다른 앱을 선택하십시오."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%@“ neįdiegta, todėl atidarytas Apple kalendorius. Kitą programą pasirinkite skiltyje Redaguoti valdiklį › Atidaryti."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tidak dipasang, jadi Kalendar Apple dibuka sebagai gantinya. Pilih app lain di Edit Widget › Buka dalam."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ er ikke installert, så Apple Kalender ble åpnet i stedet. Velg en annen app under Rediger widget › Åpne i."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ is niet geïnstalleerd, dus Apple Agenda is geopend. Kies een andere app via Wijzig widget › Open in."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ nie jest zainstalowany, więc otwarto Kalendarz Apple. Inną aplikację wybierzesz w Edytuj widżet › Otwórz w."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ não está instalado, então o Calendário da Apple foi aberto. Escolha outro app em Editar widget › Abrir em."
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ não está instalada, por isso abriu o Calendário da Apple. Escolha outra app em Editar widget › Abrir em."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ nu este instalată, așa că s-a deschis Calendar Apple. Alege altă aplicație din Editează widgetul › Deschide în."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не установлен, поэтому открылся Календарь Apple. Другое приложение можно выбрать в «Изменить виджет» › «Открывать в»."
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ nie je nainštalovaný, preto sa otvoril Kalendár Apple. Inú aplikáciu vyberiete v Upraviť widget › Otvoriť v."
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ni nameščen, zato se je odprl Apple Koledar. Drugo aplikacijo izberite v Uredi pripomoček › Odpri v."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ är inte installerad, så Apple Kalender öppnades i stället. Välj en annan app under Redigera widget › Öppna i."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ได้ติดตั้ง %@ จึงเปิดปฏิทิน Apple แทน เลือกแอปอื่นได้ที่ แก้ไขวิดเจ็ต › เปิดใน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ yüklü değil, bu yüzden onun yerine Apple Takvim açıldı. Widget’ı düzenle › Şurada aç bölümünden başka bir uygulama seçin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не встановлено, тому відкрився Календар Apple. Іншу програму можна вибрати в «Редагувати віджет» › «Відкривати в»."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ chưa được cài đặt, vì vậy Lịch Apple đã được mở thay thế. Chọn ứng dụng khác trong Sửa tiện ích › Mở bằng."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未安装%@，因此改为打开了 Apple 日历。可在“编辑小组件 › 打开方式”中选择其他 App。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未安裝%@，因此改為打開 Apple 行事曆。可在「編輯小工具 › 打開方式」中選擇其他 App。"
+          }
+        }
+      }
+    },
     "(No title)": {
       "localizations": {
         "ar": {
