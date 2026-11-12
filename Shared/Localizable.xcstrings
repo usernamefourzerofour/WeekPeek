@@ -5694,6 +5694,232 @@
         }
       }
     },
+    "Each widget opens its own calendar app. Choose it at the top of Edit Widget under Open in: Apple Calendar, Google Calendar, Microsoft Outlook or Fantastical.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفتح كل أداة تطبيق التقويم الخاص بها. اختره في أعلى تعديل الأداة ضمن فتح في: تقويم Apple أو تقويم Google أو Microsoft Outlook أو Fantastical."
+          }
+        },
+        "bg": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всеки уиджет отваря собствено приложение за календар. Изберете го най-горе в Редактиране на уиджета, в Отваряне в: Календар на Apple, Google Календар, Microsoft Outlook или Fantastical."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada widget obre la seva pròpia app de calendari. Tria-la a dalt de tot d’Editar el widget, a Obrir a: Calendari d’Apple, Google Calendar, Microsoft Outlook o Fantastical."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Každý widget otevírá vlastní kalendářovou aplikaci. Vyberte ji nahoře v Upravit widget pod Otevřít v: Kalendář Apple, Kalendář Google, Microsoft Outlook nebo Fantastical."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hver widget åbner sin egen kalenderapp. Vælg den øverst i Rediger widget under Åbn i: Apple Kalender, Google Kalender, Microsoft Outlook eller Fantastical."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedes Widget öffnet seine eigene Kalender-App. Wähle sie oben in Widget bearbeiten unter Öffnen in: Apple Kalender, Google Kalender, Microsoft Outlook oder Fantastical."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κάθε widget ανοίγει τη δική του εφαρμογή ημερολογίου. Επιλέξτε την στην κορυφή της Επεξεργασίας widget, στο Άνοιγμα σε: Ημερολόγιο Apple, Google Calendar, Microsoft Outlook ή Fantastical."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada widget abre su propia app de calendario. Elígela arriba del todo en Editar widget, en Abrir en: Calendario de Apple, Google Calendar, Microsoft Outlook o Fantastical."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada widget abre su propia app de calendario. Elígela al principio de Editar widget, en Abrir en: Calendario de Apple, Google Calendar, Microsoft Outlook o Fantastical."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jokainen widget avaa oman kalenteriappinsa. Valitse se Muokkaa widgetiä -näkymän ylhäältä kohdasta Avaa: Applen Kalenteri, Google Kalenteri, Microsoft Outlook tai Fantastical."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque widget ouvre sa propre app de calendrier. Choisissez-la tout en haut de Modifier le widget, dans Ouvrir dans : Calendrier Apple, Google Agenda, Microsoft Outlook ou Fantastical."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כל ווידג׳ט פותח יישום לוח שנה משלו. בחרו אותו בראש עריכת ווידג׳ט, תחת פתח ב-: לוח השנה של Apple, יומן Google, ‏Microsoft Outlook או Fantastical."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हर विजेट अपना कैलेंडर ऐप खोलता है। इसे विजेट संपादित करें में सबसे ऊपर इसमें खोलें के तहत चुनें: Apple कैलेंडर, Google Calendar, Microsoft Outlook या Fantastical।"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svaki widget otvara svoju aplikaciju kalendara. Odaberite je na vrhu Uredi widget pod Otvori u: Apple kalendar, Google kalendar, Microsoft Outlook ili Fantastical."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minden widget a saját naptárappját nyitja meg. Válaszd ki a Widget szerkesztése tetején, a Megnyitás itt: pontban: Apple Naptár, Google Naptár, Microsoft Outlook vagy Fantastical."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setiap widget membuka app kalendernya sendiri. Pilih di bagian atas Edit Widget pada Buka di: Kalender Apple, Google Kalender, Microsoft Outlook, atau Fantastical."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ogni widget apre la propria app di calendario. Sceglila in cima a Modifica widget, in Apri in: Calendario di Apple, Google Calendar, Microsoft Outlook o Fantastical."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウィジェットごとに開くカレンダーAppを選べます。ウィジェットを編集の一番上にある「開くApp」で、Apple カレンダー、Google カレンダー、Microsoft Outlook、Fantasticalから選択します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "위젯마다 여는 캘린더 앱이 따로 있습니다. 위젯 편집 맨 위의 열 앱에서 Apple 캘린더, Google 캘린더, Microsoft Outlook 또는 Fantastical을 선택하십시오."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiekvienas valdiklis atidaro savo kalendoriaus programą. Pasirinkite ją Redaguoti valdiklį viršuje, skiltyje Atidaryti: Apple kalendorius, Google kalendorius, Microsoft Outlook arba Fantastical."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setiap widget membuka app kalendarnya sendiri. Pilih di bahagian atas Edit Widget di bawah Buka dalam: Kalendar Apple, Google Kalendar, Microsoft Outlook atau Fantastical."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hver widget åpner sin egen kalenderapp. Velg den øverst i Rediger widget under Åpne i: Apple Kalender, Google Kalender, Microsoft Outlook eller Fantastical."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elke widget opent zijn eigen agenda-app. Kies die bovenaan in Wijzig widget bij Open in: Apple Agenda, Google Agenda, Microsoft Outlook of Fantastical."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każdy widżet otwiera własną aplikację kalendarza. Wybierz ją na górze Edytuj widżet w Otwórz w: Kalendarz Apple, Kalendarz Google, Microsoft Outlook lub Fantastical."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada widget abre seu próprio app de calendário. Escolha no topo de Editar Widget, em Abrir em: Calendário da Apple, Google Agenda, Microsoft Outlook ou Fantastical."
+          }
+        },
+        "pt-PT": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada widget abre a sua própria app de calendário. Escolha no topo de Editar widget, em Abrir em: Calendário da Apple, Google Calendar, Microsoft Outlook ou Fantastical."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiecare widget deschide propria aplicație de calendar. Alege-o în partea de sus a Editează widgetul, la Deschide în: Calendar Apple, Google Calendar, Microsoft Outlook sau Fantastical."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каждый виджет открывает своё приложение календаря. Выберите его вверху раздела «Изменить виджет» в пункте «Открывать в»: Календарь Apple, Google Календарь, Microsoft Outlook или Fantastical."
+          }
+        },
+        "sk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Každý widget otvára vlastnú kalendárovú aplikáciu. Vyberte ju hore v Upraviť widget pod Otvoriť v: Kalendár Apple, Kalendár Google, Microsoft Outlook alebo Fantastical."
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vsak pripomoček odpre svojo aplikacijo za koledar. Izberite jo na vrhu Uredi pripomoček pod Odpri v: Apple Koledar, Google Koledar, Microsoft Outlook ali Fantastical."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varje widget öppnar sin egen kalenderapp. Välj den högst upp i Redigera widget under Öppna i: Apple Kalender, Google Kalender, Microsoft Outlook eller Fantastical."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แต่ละวิดเจ็ตเปิดแอปปฏิทินของตัวเอง เลือกได้ที่ด้านบนสุดของ แก้ไขวิดเจ็ต ในหัวข้อ เปิดใน: ปฏิทิน Apple, Google ปฏิทิน, Microsoft Outlook หรือ Fantastical"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her widget kendi takvim uygulamasını açar. Widget’ı düzenle ekranının en üstündeki Şurada aç bölümünden seçin: Apple Takvim, Google Takvim, Microsoft Outlook veya Fantastical."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кожен віджет відкриває власну програму календаря. Виберіть її вгорі розділу «Редагувати віджет» у пункті «Відкривати в»: Календар Apple, Google Календар, Microsoft Outlook або Fantastical."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mỗi tiện ích mở ứng dụng lịch riêng. Chọn ở đầu Sửa tiện ích, mục Mở bằng: Lịch Apple, Google Lịch, Microsoft Outlook hoặc Fantastical."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每个小组件可打开各自的日历 App。可在“编辑小组件”最上方的“打开方式”中选择：Apple 日历、Google 日历、Microsoft Outlook 或 Fantastical。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每個小工具可打開各自的行事曆 App。可在「編輯小工具」最上方的「打開方式」中選擇：Apple 行事曆、Google 日曆、Microsoft Outlook 或 Fantastical。"
+          }
+        }
+      }
+    },
     "Fantastical": {
       "shouldTranslate": false
     },

@@ -36,6 +36,11 @@ struct WeekWidgetIntent: WidgetConfigurationIntent {
     static let title: LocalizedStringResource = "WeekPeek"
     static let description = IntentDescription("Choose days, layout, calendars and which app opens.")
 
+    // First in Edit Widget: which app a tap opens is easy to miss further down.
+    // Apple Calendar is always installed; the others may not be.
+    @Parameter(title: "Open in", default: .apple)
+    var app: CalendarApp
+
     @Parameter(title: "Number of days", default: .auto)
     var dayCount: DayCountOption
 
@@ -87,20 +92,16 @@ struct WeekWidgetIntent: WidgetConfigurationIntent {
     @Parameter(title: "Calendars")
     var calendars: [CalendarEntity]?
 
-    // Apple Calendar is always installed; the others may not be.
-    @Parameter(title: "Open in", default: .apple)
-    var app: CalendarApp
-
     static var parameterSummary: some ParameterSummary {
         When(\.$allCalendars, .equalTo, true) {
-            Summary("Open in \(\.$app)") {
-                \.$dayCount; \.$columns; \.$startDay; \.$lines; \.$fontSize; \.$showStartTime
+            Summary {
+                \.$app; \.$dayCount; \.$columns; \.$startDay; \.$lines; \.$fontSize; \.$showStartTime
                 \.$showWeekNumber; \.$colorStyle; \.$daysOffMode; \.$daysOff; \.$allDayMode; \.$hideFinished
                 \.$hideDeclined; \.$showEmptyDays; \.$allCalendars
             }
         } otherwise: {
-            Summary("Open in \(\.$app)") {
-                \.$dayCount; \.$columns; \.$startDay; \.$lines; \.$fontSize; \.$showStartTime
+            Summary {
+                \.$app; \.$dayCount; \.$columns; \.$startDay; \.$lines; \.$fontSize; \.$showStartTime
                 \.$showWeekNumber; \.$colorStyle; \.$daysOffMode; \.$daysOff; \.$allDayMode; \.$hideFinished
                 \.$hideDeclined; \.$showEmptyDays; \.$allCalendars; \.$calendars
             }
