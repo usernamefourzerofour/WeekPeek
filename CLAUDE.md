@@ -73,7 +73,7 @@ xcodebuild test -project KalenderWidget.xcodeproj -scheme KalenderWidget \
 
 ## Releasing to TestFlight
 
-1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 11 is the latest uploaded; next is 12). Info.plists read the version from there.
+1. Bump `CURRENT_PROJECT_VERSION` in `project.yml` (build 12 is the latest uploaded; next is 13). Info.plists read the version from there.
 2. Archive and export with the signing files NoMac installs on every Mac:
 
 ```sh
@@ -95,7 +95,7 @@ xcodebuild -exportArchive -archivePath build/KalenderWidget.xcarchive -exportPat
 - Version 1.2 (build 9, `bld_PccTsLz1MSuiJPZuvvVkt`, iPhone and iPad) was sent to TestFlight on 6 Nov after all tests passed and a check in the iPad Pro 13" Simulator (portrait and landscape). iPad App Store screenshots are in `docs/appstore/ipad-*.png` (2048 × 2732, as display type APP_IPAD_PRO_3GEN_129 requires). Submit only after 1.1 is approved and released.
 - Build 11 (`bld_qx2rZYxXpwyQotBN4nQiM`, 1.2, 7 Nov) adds more space below the week label and is the build to submit as 1.2. Build 10 (`bld_B2wJ5qtG7tWr8X9mfdCKs`) went to the external group "External testing" (group `9817d506-aa22-421a-9cba-b877c92517c1`) and Beta App Review on 7 Nov; TestFlight test information is filled in via NoMac. Build 10: text size 6–20 pt. iOS let Erik enter a value below the intent's `inclusiveRange` (8–20) and then rejected the configuration, showing only the redacted placeholder (7 Nov). The parameter is now a stepper (`controlStyle: .stepper`, range 6–20) so nothing can be typed; `WeekSettings.clampedFontSize` still clamps to 6–20. Check on a device that Edit Widget shows – and + buttons.
 - 1.1 was approved on 7 Nov and is READY_FOR_SALE. Version 1.2 exists in ASC (8 Nov) with the iPad description and "What's New"; iPad screenshots are uploaded. Submitted to App Review on 8 Nov with build 11 (submission `bbfcd7ec-a409-4961-a71b-b9e36a278801`), release AFTER_APPROVAL (automatic, set with `update_store` appStoreVersions_updateInstance).
-- Version 1.3 (build 12) is written but not built: Apple Calendar as default and fallback (a colleague without Google Calendar only got "install Google Calendar") "Open in" is now the first setting in Edit Widget (`Summary { \.$app; … }` without a sentence; check that it compiles and shows at the top), and the app guide has a line about it in all 37 languages.
+- Version 1.3 (build 12, `bld_HaBmIIYtdRTPLSl309NWK`) was sent to TestFlight on 12 Nov after all tests passed (`Summary { … }` without a sentence compiles). Erik should check on a device that "Open in" shows at the top of Edit Widget. Submit only after 1.2 is approved. Contents: Apple Calendar as default and fallback (a colleague without Google Calendar only got "install Google Calendar") "Open in" is now the first setting in Edit Widget (`Summary { \.$app; … }` without a sentence; check that it compiles and shows at the top), and the app guide has a line about it in all 37 languages.
 - App Store Connect is filled in (texts, URLs, Productivity, free, copyright "2026 Erik Bouvin Poulsen", review contact, age rating 4+, content rights "No", App Privacy "Data Not Collected", DSA non-trader for the whole account). Screenshots are from `docs/appstore/`.
 - Metadata of a version cannot be changed through NoMac once it is READY_FOR_REVIEW or later; promotional text can be changed on a live version without review.
 
