@@ -68,7 +68,7 @@ The project and targets are still named `KalenderWidget` from the first prototyp
 
 ## Known limitations
 
-- Google Calendar and Outlook have no documented link to a specific date, so they open on today (Outlook on its calendar tab). Apple Calendar and Fantastical open the tapped day.
+- Google Calendar and Outlook have no documented link to a specific date, so they just open the app (Outlook on its calendar tab). The small widget is one tap target (an iOS limit), so it always opens today. Apple Calendar and Fantastical open the tapped day.
 - Text fitting in the widget uses measured estimates; very narrow layouts (7 columns in the large widget) truncate titles quickly.
 - Translations have not yet been reviewed by native speakers. Corrections are very welcome.
 
