@@ -13609,228 +13609,228 @@
         }
       }
     },
-    "Tap a day to open your calendar app. Apple Calendar and Fantastical open on the day you tap. Google Calendar and Outlook just open the app. The small widget shows several days, but you can't choose a single day on it: a tap opens your calendar app on today's date.": {
+    "Tap a day to open your calendar app. Apple Calendar and Fantastical open on the day you tap. Google Calendar and Outlook just open the app. Even though the small widget shows several days, you can't choose a single day on it: a tap opens your calendar app on today's date.": {
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "اضغط على يوم لفتح تطبيق التقويم. يفتح تقويم Apple وFantastical على اليوم الذي تضغط عليه. أما تقويم Google وOutlook فيفتحان التطبيق فقط. تعرض الأداة الصغيرة عدة أيام، لكن لا يمكنك اختيار يوم واحد منها: أي ضغطة تفتح تطبيق التقويم على تاريخ اليوم."
+            "value": "اضغط على يوم لفتح تطبيق التقويم. يفتح تقويم Apple وFantastical على اليوم الذي تضغط عليه. أما تقويم Google وOutlook فيفتحان التطبيق فقط. رغم أن الأداة الصغيرة تعرض عدة أيام، لا يمكنك اختيار يوم واحد منها: أي ضغطة تفتح تطبيق التقويم على تاريخ اليوم."
           }
         },
         "bg": {
           "stringUnit": {
             "state": "translated",
-            "value": "Докоснете ден, за да отворите приложението за календар. Календарът на Apple и Fantastical се отварят на деня, който докоснете. Google Календар и Outlook просто отварят приложението. Малката приспособка показва няколко дни, но в нея не можете да изберете отделен ден: докосването отваря календара на днешната дата."
+            "value": "Докоснете ден, за да отворите приложението за календар. Календарът на Apple и Fantastical се отварят на деня, който докоснете. Google Календар и Outlook просто отварят приложението. Въпреки че малката приспособка показва няколко дни, в нея не можете да изберете отделен ден: докосването отваря календара на днешната дата."
           }
         },
         "ca": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un dia per obrir l’app de calendari. El Calendari d’Apple i Fantastical s’obren en el dia que toques. Google Calendar i Outlook només obren l’app. El widget petit mostra diversos dies, però no hi pots triar un dia concret: un toc obre l’app de calendari en la data d’avui."
+            "value": "Toca un dia per obrir l’app de calendari. El Calendari d’Apple i Fantastical s’obren en el dia que toques. Google Calendar i Outlook només obren l’app. Tot i que el widget petit mostra diversos dies, no hi pots triar un dia concret: un toc obre l’app de calendari en la data d’avui."
           }
         },
         "cs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Klepnutím na den otevřete aplikaci kalendáře. Kalendář Apple a Fantastical se otevřou na dni, na který klepnete. Kalendář Google a Outlook jen otevřou aplikaci. Malý widget ukazuje několik dní, ale nelze v něm vybrat jednotlivý den: klepnutí otevře kalendář na dnešním datu."
+            "value": "Klepnutím na den otevřete aplikaci kalendáře. Kalendář Apple a Fantastical se otevřou na dni, na který klepnete. Kalendář Google a Outlook jen otevřou aplikaci. I když malý widget ukazuje několik dní, nelze v něm vybrat jednotlivý den: klepnutí otevře kalendář na dnešním datu."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryk på en dag for at åbne din kalenderapp. Apple Kalender og Fantastical åbner på den dag, du trykker på. Google Kalender og Outlook åbner bare appen. Den lille widget viser flere dage, men man kan ikke vælge en enkelt dag på den: et tryk åbner kalenderappen på dagens dato."
+            "value": "Tryk på en dag for at åbne din kalenderapp. Apple Kalender og Fantastical åbner på den dag, du trykker på. Google Kalender og Outlook åbner bare appen. Selvom den lille widget viser flere dage, kan man ikke vælge en enkelt dag på den: et tryk åbner kalenderappen på dagens dato."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tippe auf einen Tag, um deine Kalender-App zu öffnen. Apple Kalender und Fantastical öffnen den angetippten Tag. Google Kalender und Outlook öffnen nur die App. Das kleine Widget zeigt mehrere Tage, aber dort kannst du keinen einzelnen Tag wählen: Ein Tippen öffnet die Kalender-App beim heutigen Datum."
+            "value": "Tippe auf einen Tag, um deine Kalender-App zu öffnen. Apple Kalender und Fantastical öffnen den angetippten Tag. Google Kalender und Outlook öffnen nur die App. Auch wenn das kleine Widget mehrere Tage zeigt, kannst du dort keinen einzelnen Tag wählen: Ein Tippen öffnet die Kalender-App beim heutigen Datum."
           }
         },
         "el": {
           "stringUnit": {
             "state": "translated",
-            "value": "Αγγίξτε μια ημέρα για να ανοίξετε την εφαρμογή ημερολογίου. Το Ημερολόγιο της Apple και το Fantastical ανοίγουν στην ημέρα που αγγίξατε. Το Google Calendar και το Outlook απλώς ανοίγουν την εφαρμογή. Το μικρό widget δείχνει πολλές ημέρες, αλλά δεν μπορείτε να επιλέξετε μία συγκεκριμένη: ένα άγγιγμα ανοίγει το ημερολόγιο στη σημερινή ημερομηνία."
+            "value": "Αγγίξτε μια ημέρα για να ανοίξετε την εφαρμογή ημερολογίου. Το Ημερολόγιο της Apple και το Fantastical ανοίγουν στην ημέρα που αγγίξατε. Το Google Calendar και το Outlook απλώς ανοίγουν την εφαρμογή. Παρόλο που το μικρό widget δείχνει πολλές ημέρες, δεν μπορείτε να επιλέξετε μία συγκεκριμένη: ένα άγγιγμα ανοίγει το ημερολόγιο στη σημερινή ημερομηνία."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en el día que tocas. Google Calendar y Outlook solo abren la app. El widget pequeño muestra varios días, pero en él no puedes elegir un día concreto: un toque abre la app de calendario en la fecha de hoy."
+            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en el día que tocas. Google Calendar y Outlook solo abren la app. Aunque el widget pequeño muestra varios días, en él no puedes elegir un día concreto: un toque abre la app de calendario en la fecha de hoy."
           }
         },
         "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en el día que tocas. Google Calendar y Outlook solo abren la app. El widget pequeño muestra varios días, pero en él no puedes elegir un día específico: un toque abre la app de calendario en la fecha de hoy."
+            "value": "Toca un día para abrir tu app de calendario. Calendario de Apple y Fantastical se abren en el día que tocas. Google Calendar y Outlook solo abren la app. Aunque el widget pequeño muestra varios días, en él no puedes elegir un día específico: un toque abre la app de calendario en la fecha de hoy."
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Avaa kalenteriappi napauttamalla päivää. Apple-kalenteri ja Fantastical avautuvat napauttamaasi päivään. Google-kalenteri ja Outlook vain avaavat apin. Pieni widget näyttää useita päiviä, mutta siinä ei voi valita yksittäistä päivää: napautus avaa kalenteriapin tämän päivän kohdalta."
+            "value": "Avaa kalenteriappi napauttamalla päivää. Apple-kalenteri ja Fantastical avautuvat napauttamaasi päivään. Google-kalenteri ja Outlook vain avaavat apin. Vaikka pieni widget näyttää useita päiviä, siinä ei voi valita yksittäistä päivää: napautus avaa kalenteriapin tämän päivän kohdalta."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Touchez un jour pour ouvrir votre app de calendrier. Calendrier d’Apple et Fantastical s’ouvrent sur le jour touché. Google Agenda et Outlook ouvrent simplement l’app. Le petit widget affiche plusieurs jours, mais on ne peut pas y choisir un jour précis : un toucher ouvre l’app de calendrier à la date du jour."
+            "value": "Touchez un jour pour ouvrir votre app de calendrier. Calendrier d’Apple et Fantastical s’ouvrent sur le jour touché. Google Agenda et Outlook ouvrent simplement l’app. Même si le petit widget affiche plusieurs jours, on ne peut pas y choisir un jour précis : un toucher ouvre l’app de calendrier à la date du jour."
           }
         },
         "he": {
           "stringUnit": {
             "state": "translated",
-            "value": "הקישו על יום כדי לפתוח את יישום לוח השנה. לוח השנה של Apple ו‑Fantastical נפתחים ביום שהקשתם עליו. Google Calendar ו‑Outlook פשוט פותחים את היישום. הווידג׳ט הקטן מציג כמה ימים, אבל אי אפשר לבחור בו יום בודד: הקשה פותחת את לוח השנה בתאריך של היום."
+            "value": "הקישו על יום כדי לפתוח את יישום לוח השנה. לוח השנה של Apple ו‑Fantastical נפתחים ביום שהקשתם עליו. Google Calendar ו‑Outlook פשוט פותחים את היישום. אף שהווידג׳ט הקטן מציג כמה ימים, אי אפשר לבחור בו יום בודד: הקשה פותחת את לוח השנה בתאריך של היום."
           }
         },
         "hi": {
           "stringUnit": {
             "state": "translated",
-            "value": "अपना कैलेंडर ऐप खोलने के लिए किसी दिन पर टैप करें। Apple कैलेंडर और Fantastical उसी दिन पर खुलते हैं जिस पर आप टैप करते हैं। Google कैलेंडर और Outlook बस ऐप खोलते हैं। छोटा विजेट कई दिन दिखाता है, लेकिन उसमें आप एक दिन नहीं चुन सकते: टैप करने पर कैलेंडर ऐप आज की तारीख पर खुलता है।"
+            "value": "अपना कैलेंडर ऐप खोलने के लिए किसी दिन पर टैप करें। Apple कैलेंडर और Fantastical उसी दिन पर खुलते हैं जिस पर आप टैप करते हैं। Google कैलेंडर और Outlook बस ऐप खोलते हैं। भले ही छोटा विजेट कई दिन दिखाता है, उसमें आप एक दिन नहीं चुन सकते: टैप करने पर कैलेंडर ऐप आज की तारीख पर खुलता है।"
           }
         },
         "hr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dodirnite dan da biste otvorili aplikaciju kalendara. Appleov Kalendar i Fantastical otvaraju se na danu koji dodirnete. Google kalendar i Outlook samo otvaraju aplikaciju. Mali widget prikazuje više dana, ali na njemu ne možete odabrati pojedini dan: dodir otvara kalendar na današnjem datumu."
+            "value": "Dodirnite dan da biste otvorili aplikaciju kalendara. Appleov Kalendar i Fantastical otvaraju se na danu koji dodirnete. Google kalendar i Outlook samo otvaraju aplikaciju. Iako mali widget prikazuje više dana, na njemu ne možete odabrati pojedini dan: dodir otvara kalendar na današnjem datumu."
           }
         },
         "hu": {
           "stringUnit": {
             "state": "translated",
-            "value": "Koppints egy napra a naptárapp megnyitásához. Az Apple Naptár és a Fantastical a megérintett napon nyílik meg. A Google Naptár és az Outlook csak az appot nyitja meg. A kis widget több napot mutat, de rajta nem választhatsz ki egy napot: egy koppintás a mai dátumnál nyitja meg a naptárappot."
+            "value": "Koppints egy napra a naptárapp megnyitásához. Az Apple Naptár és a Fantastical a megérintett napon nyílik meg. A Google Naptár és az Outlook csak az appot nyitja meg. Bár a kis widget több napot mutat, rajta nem választhatsz ki egy napot: egy koppintás a mai dátumnál nyitja meg a naptárappot."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketuk hari untuk membuka app kalender Anda. Kalender Apple dan Fantastical terbuka di hari yang Anda ketuk. Google Kalender dan Outlook hanya membuka app-nya. Widget kecil menampilkan beberapa hari, tetapi Anda tidak bisa memilih satu hari di sana: ketukan membuka app kalender di tanggal hari ini."
+            "value": "Ketuk hari untuk membuka app kalender Anda. Kalender Apple dan Fantastical terbuka di hari yang Anda ketuk. Google Kalender dan Outlook hanya membuka app-nya. Meskipun widget kecil menampilkan beberapa hari, Anda tidak bisa memilih satu hari di sana: ketukan membuka app kalender di tanggal hari ini."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tocca un giorno per aprire la tua app calendario. Calendario di Apple e Fantastical si aprono sul giorno toccato. Google Calendar e Outlook aprono solo l’app. Il widget piccolo mostra più giorni, ma non vi si può scegliere un singolo giorno: un tocco apre l’app calendario alla data di oggi."
+            "value": "Tocca un giorno per aprire la tua app calendario. Calendario di Apple e Fantastical si aprono sul giorno toccato. Google Calendar e Outlook aprono solo l’app. Anche se il widget piccolo mostra più giorni, non vi si può scegliere un singolo giorno: un tocco apre l’app calendario alla data di oggi."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "日付をタップするとカレンダーアプリが開きます。AppleのカレンダーとFantasticalはタップした日を開きます。GoogleカレンダーとOutlookはアプリを開くだけです。小さいウィジェットには複数の日が表示されますが、1日を選ぶことはできません。タップすると今日の日付でカレンダーアプリが開きます。"
+            "value": "日付をタップするとカレンダーアプリが開きます。AppleのカレンダーとFantasticalはタップした日を開きます。GoogleカレンダーとOutlookはアプリを開くだけです。小さいウィジェットには複数の日が表示されていても、1日を選ぶことはできません。タップすると今日の日付でカレンダーアプリが開きます。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "날짜를 탭하면 캘린더 앱이 열립니다. Apple 캘린더와 Fantastical은 탭한 날짜로 열립니다. Google 캘린더와 Outlook은 앱만 엽니다. 작은 위젯은 여러 날을 보여 주지만 하루를 골라 탭할 수는 없습니다. 탭하면 오늘 날짜로 캘린더 앱이 열립니다."
+            "value": "날짜를 탭하면 캘린더 앱이 열립니다. Apple 캘린더와 Fantastical은 탭한 날짜로 열립니다. Google 캘린더와 Outlook은 앱만 엽니다. 작은 위젯에 여러 날이 표시되더라도 하루를 골라 탭할 수는 없습니다. 탭하면 오늘 날짜로 캘린더 앱이 열립니다."
           }
         },
         "lt": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bakstelėkite dieną, kad atidarytumėte kalendoriaus programą. „Apple“ kalendorius ir „Fantastical“ atsidaro ties paliesta diena. „Google“ kalendorius ir „Outlook“ tiesiog atidaro programą. Mažas valdiklis rodo kelias dienas, bet jame negalima pasirinkti vienos dienos: bakstelėjimas atidaro kalendorių ties šiandienos data."
+            "value": "Bakstelėkite dieną, kad atidarytumėte kalendoriaus programą. „Apple“ kalendorius ir „Fantastical“ atsidaro ties paliesta diena. „Google“ kalendorius ir „Outlook“ tiesiog atidaro programą. Nors mažas valdiklis rodo kelias dienas, jame negalima pasirinkti vienos dienos: bakstelėjimas atidaro kalendorių ties šiandienos data."
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketik hari untuk membuka app kalendar anda. Kalendar Apple dan Fantastical dibuka pada hari yang anda ketik. Kalendar Google dan Outlook hanya membuka app. Widget kecil menunjukkan beberapa hari, tetapi anda tidak boleh memilih satu hari di situ: ketikan membuka app kalendar pada tarikh hari ini."
+            "value": "Ketik hari untuk membuka app kalendar anda. Kalendar Apple dan Fantastical dibuka pada hari yang anda ketik. Kalendar Google dan Outlook hanya membuka app. Walaupun widget kecil menunjukkan beberapa hari, anda tidak boleh memilih satu hari di situ: ketikan membuka app kalendar pada tarikh hari ini."
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Trykk på en dag for å åpne kalenderappen din. Apple Kalender og Fantastical åpner på dagen du trykker på. Google Kalender og Outlook åpner bare appen. Den lille widgeten viser flere dager, men du kan ikke velge en enkelt dag på den: et trykk åpner kalenderappen på dagens dato."
+            "value": "Trykk på en dag for å åpne kalenderappen din. Apple Kalender og Fantastical åpner på dagen du trykker på. Google Kalender og Outlook åpner bare appen. Selv om den lille widgeten viser flere dager, kan du ikke velge en enkelt dag på den: et trykk åpner kalenderappen på dagens dato."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tik op een dag om je agenda-app te openen. Apple Agenda en Fantastical openen op de dag waarop je tikt. Google Agenda en Outlook openen alleen de app. De kleine widget toont meerdere dagen, maar je kunt er geen losse dag kiezen: een tik opent je agenda-app op de datum van vandaag."
+            "value": "Tik op een dag om je agenda-app te openen. Apple Agenda en Fantastical openen op de dag waarop je tikt. Google Agenda en Outlook openen alleen de app. Hoewel de kleine widget meerdere dagen toont, kun je er geen losse dag kiezen: een tik opent je agenda-app op de datum van vandaag."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Stuknij dzień, aby otworzyć aplikację kalendarza. Kalendarz Apple i Fantastical otwierają się na stukniętym dniu. Kalendarz Google i Outlook po prostu otwierają aplikację. Mały widżet pokazuje kilka dni, ale nie można w nim wybrać pojedynczego dnia: stuknięcie otwiera kalendarz na dzisiejszej dacie."
+            "value": "Stuknij dzień, aby otworzyć aplikację kalendarza. Kalendarz Apple i Fantastical otwierają się na stukniętym dniu. Kalendarz Google i Outlook po prostu otwierają aplikację. Choć mały widżet pokazuje kilka dni, nie można w nim wybrać pojedynczego dnia: stuknięcie otwiera kalendarz na dzisiejszej dacie."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toque em um dia para abrir seu app de calendário. O Calendário da Apple e o Fantastical abrem no dia tocado. O Google Agenda e o Outlook só abrem o app. O widget pequeno mostra vários dias, mas nele não dá para escolher um único dia: um toque abre o app de calendário na data de hoje."
+            "value": "Toque em um dia para abrir seu app de calendário. O Calendário da Apple e o Fantastical abrem no dia tocado. O Google Agenda e o Outlook só abrem o app. Embora o widget pequeno mostre vários dias, nele não dá para escolher um único dia: um toque abre o app de calendário na data de hoje."
           }
         },
         "pt-PT": {
           "stringUnit": {
             "state": "translated",
-            "value": "Toque num dia para abrir a sua app de calendário. O Calendário da Apple e o Fantastical abrem no dia tocado. O Google Calendar e o Outlook apenas abrem a app. O widget pequeno mostra vários dias, mas não é possível escolher nele um único dia: um toque abre a app de calendário na data de hoje."
+            "value": "Toque num dia para abrir a sua app de calendário. O Calendário da Apple e o Fantastical abrem no dia tocado. O Google Calendar e o Outlook apenas abrem a app. Embora o widget pequeno mostre vários dias, não é possível escolher nele um único dia: um toque abre a app de calendário na data de hoje."
           }
         },
         "ro": {
           "stringUnit": {
             "state": "translated",
-            "value": "Atinge o zi pentru a deschide aplicația de calendar. Calendarul Apple și Fantastical se deschid la ziua atinsă. Google Calendar și Outlook doar deschid aplicația. Widgetul mic arată mai multe zile, dar pe el nu poți alege o singură zi: o atingere deschide calendarul la data de azi."
+            "value": "Atinge o zi pentru a deschide aplicația de calendar. Calendarul Apple și Fantastical se deschid la ziua atinsă. Google Calendar și Outlook doar deschid aplicația. Deși widgetul mic arată mai multe zile, pe el nu poți alege o singură zi: o atingere deschide calendarul la data de azi."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Коснитесь дня, чтобы открыть приложение календаря. Календарь Apple и Fantastical откроются на выбранном дне. Google Календарь и Outlook просто откроют приложение. Маленький виджет показывает несколько дней, но выбрать в нём отдельный день нельзя: касание открывает календарь на сегодняшней дате."
+            "value": "Коснитесь дня, чтобы открыть приложение календаря. Календарь Apple и Fantastical откроются на выбранном дне. Google Календарь и Outlook просто откроют приложение. Хотя маленький виджет показывает несколько дней, выбрать в нём отдельный день нельзя: касание открывает календарь на сегодняшней дате."
           }
         },
         "sk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Klepnutím na deň otvoríte aplikáciu kalendára. Kalendár Apple a Fantastical sa otvoria na dni, na ktorý klepnete. Kalendár Google a Outlook len otvoria aplikáciu. Malý widget ukazuje niekoľko dní, ale nedá sa v ňom vybrať jednotlivý deň: klepnutie otvorí kalendár na dnešnom dátume."
+            "value": "Klepnutím na deň otvoríte aplikáciu kalendára. Kalendár Apple a Fantastical sa otvoria na dni, na ktorý klepnete. Kalendár Google a Outlook len otvoria aplikáciu. Hoci malý widget ukazuje niekoľko dní, nedá sa v ňom vybrať jednotlivý deň: klepnutie otvorí kalendár na dnešnom dátume."
           }
         },
         "sl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tapnite dan, da odprete aplikacijo za koledar. Applov Koledar in Fantastical se odpreta na dnevu, ki ga tapnete. Google Koledar in Outlook samo odpreta aplikacijo. Majhen pripomoček prikazuje več dni, vendar na njem ne morete izbrati posameznega dne: dotik odpre koledar na današnjem datumu."
+            "value": "Tapnite dan, da odprete aplikacijo za koledar. Applov Koledar in Fantastical se odpreta na dnevu, ki ga tapnete. Google Koledar in Outlook samo odpreta aplikacijo. Čeprav majhen pripomoček prikazuje več dni, na njem ne morete izbrati posameznega dne: dotik odpre koledar na današnjem datumu."
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryck på en dag för att öppna din kalenderapp. Apple Kalender och Fantastical öppnar på dagen du trycker på. Google Kalender och Outlook öppnar bara appen. Den lilla widgeten visar flera dagar, men där kan du inte välja en enskild dag: ett tryck öppnar kalenderappen på dagens datum."
+            "value": "Tryck på en dag för att öppna din kalenderapp. Apple Kalender och Fantastical öppnar på dagen du trycker på. Google Kalender och Outlook öppnar bara appen. Även om den lilla widgeten visar flera dagar kan du inte välja en enskild dag där: ett tryck öppnar kalenderappen på dagens datum."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "แตะวันเพื่อเปิดแอปปฏิทินของคุณ ปฏิทินของ Apple และ Fantastical จะเปิดที่วันที่คุณแตะ ส่วน Google ปฏิทินและ Outlook จะเปิดแค่แอป วิดเจ็ตขนาดเล็กแสดงหลายวัน แต่เลือกวันใดวันหนึ่งไม่ได้ การแตะจะเปิดแอปปฏิทินที่วันที่ของวันนี้"
+            "value": "แตะวันเพื่อเปิดแอปปฏิทินของคุณ ปฏิทินของ Apple และ Fantastical จะเปิดที่วันที่คุณแตะ ส่วน Google ปฏิทินและ Outlook จะเปิดแค่แอป แม้วิดเจ็ตขนาดเล็กจะแสดงหลายวัน แต่เลือกวันใดวันหนึ่งไม่ได้ การแตะจะเปิดแอปปฏิทินที่วันที่ของวันนี้"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Takvim uygulamanızı açmak için bir güne dokunun. Apple Takvim ve Fantastical dokunduğunuz günde açılır. Google Takvim ve Outlook yalnızca uygulamayı açar. Küçük widget birkaç gün gösterir ama orada tek bir gün seçemezsiniz: bir dokunuş takvim uygulamasını bugünün tarihinde açar."
+            "value": "Takvim uygulamanızı açmak için bir güne dokunun. Apple Takvim ve Fantastical dokunduğunuz günde açılır. Google Takvim ve Outlook yalnızca uygulamayı açar. Küçük widget birkaç gün gösterse de orada tek bir gün seçemezsiniz: bir dokunuş takvim uygulamasını bugünün tarihinde açar."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Торкніться дня, щоб відкрити програму календаря. Календар Apple і Fantastical відкриються на вибраному дні. Google Календар і Outlook просто відкриють програму. Малий віджет показує кілька днів, але вибрати в ньому окремий день не можна: дотик відкриває календар на сьогоднішній даті."
+            "value": "Торкніться дня, щоб відкрити програму календаря. Календар Apple і Fantastical відкриються на вибраному дні. Google Календар і Outlook просто відкриють програму. Хоча малий віджет показує кілька днів, вибрати в ньому окремий день не можна: дотик відкриває календар на сьогоднішній даті."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chạm vào một ngày để mở ứng dụng lịch. Lịch của Apple và Fantastical mở đúng ngày bạn chạm. Google Lịch và Outlook chỉ mở ứng dụng. Tiện ích nhỏ hiển thị nhiều ngày nhưng bạn không thể chọn riêng một ngày: chạm vào sẽ mở ứng dụng lịch ở ngày hôm nay."
+            "value": "Chạm vào một ngày để mở ứng dụng lịch. Lịch của Apple và Fantastical mở đúng ngày bạn chạm. Google Lịch và Outlook chỉ mở ứng dụng. Dù tiện ích nhỏ hiển thị nhiều ngày, bạn không thể chọn riêng một ngày: chạm vào sẽ mở ứng dụng lịch ở ngày hôm nay."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "轻点某一天即可打开日历 App。Apple 日历和 Fantastical 会打开你轻点的那一天。Google 日历和 Outlook 只会打开 App。小号小组件显示多天，但不能单独选择某一天：轻点会在今天的日期打开日历 App。"
+            "value": "轻点某一天即可打开日历 App。Apple 日历和 Fantastical 会打开你轻点的那一天。Google 日历和 Outlook 只会打开 App。虽然小号小组件显示多天，但不能单独选择某一天：轻点会在今天的日期打开日历 App。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "點一下某一天即可打開行事曆 App。Apple 行事曆和 Fantastical 會打開你點的那一天。Google 日曆和 Outlook 只會打開 App。小型小工具顯示多天，但無法單獨選擇某一天：點一下會在今天的日期打開行事曆 App。"
+            "value": "點一下某一天即可打開行事曆 App。Apple 行事曆和 Fantastical 會打開你點的那一天。Google 日曆和 Outlook 只會打開 App。雖然小型小工具顯示多天，但無法單獨選擇某一天：點一下會在今天的日期打開行事曆 App。"
           }
         }
       }

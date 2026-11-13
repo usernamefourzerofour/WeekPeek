@@ -136,7 +136,7 @@ struct ContentView: View {
                     Text("Touch and hold the Home Screen › Edit › Add Widget › WeekPeek. Choose small, medium or large.")
                     Text("Touch and hold the widget › Edit Widget to choose days, columns, text size, colors and more.")
                     Text("Each widget opens its own calendar app. Choose it at the top of Edit Widget under Open in: Apple Calendar, Google Calendar, Microsoft Outlook or Fantastical.")
-                    Text("Tap a day to open your calendar app. Apple Calendar and Fantastical open on the day you tap. Google Calendar and Outlook just open the app. The small widget shows several days, but you can't choose a single day on it: a tap opens your calendar app on today's date.")
+                    Text("Tap a day to open your calendar app. Apple Calendar and Fantastical open on the day you tap. Google Calendar and Outlook just open the app. Even though the small widget shows several days, you can't choose a single day on it: a tap opens your calendar app on today's date.")
                 }
                 .font(.callout)
             }
