@@ -1,6 +1,5 @@
 {
   "sourceLanguage": "en",
-  "version": "1.0",
   "strings": {
     "%@ could not be opened. Is the app installed?": {
       "localizations": {
@@ -13639,7 +13638,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryk på en dag for at åbne din kalenderapp. Apple Kalender og Fantastical åbner på den dag; Google Kalender og Outlook åbner på i dag. Den lille widget åbner altid på i dag."
+            "value": "Tryk på en dag for at åbne din kalenderapp. Apple Kalender og Fantastical viser den dag, du trykker på; Google Kalender og Outlook viser dagen i dag. Den lille widget viser altid dagen i dag."
           }
         },
         "de": {
@@ -13741,13 +13740,13 @@
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Trykk på en dag for å åpne kalenderappen din. Apple Kalender og Fantastical åpner den dagen; Google Kalender og Outlook åpner i dag. Den lille widgeten åpner alltid i dag."
+            "value": "Trykk på en dag for å åpne kalenderappen din. Apple Kalender og Fantastical viser dagen du trykker på; Google Kalender og Outlook viser dagens dato. Den lille widgeten viser alltid dagens dato."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tik op een dag om je agenda-app te openen. Apple Agenda en Fantastical openen op die dag; Google Agenda en Outlook openen op vandaag. De kleine widget opent altijd op vandaag."
+            "value": "Tik op een dag om je agenda-app te openen. Apple Agenda en Fantastical tonen de dag waarop je tikt; Google Agenda en Outlook tonen de dag van vandaag. De kleine widget toont altijd de dag van vandaag."
           }
         },
         "pl": {
@@ -13795,7 +13794,7 @@
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tryck på en dag för att öppna din kalenderapp. Apple Kalender och Fantastical öppnar den dagen; Google Kalender och Outlook öppnar i dag. Den lilla widgeten öppnar alltid i dag."
+            "value": "Tryck på en dag för att öppna din kalenderapp. Apple Kalender och Fantastical visar dagen du trycker på; Google Kalender och Outlook visar dagens datum. Den lilla widgeten visar alltid dagens datum."
           }
         },
         "th": {
@@ -18133,5 +18132,6 @@
         }
       }
     }
-  }
+  },
+  "version": "1.0"
 }
